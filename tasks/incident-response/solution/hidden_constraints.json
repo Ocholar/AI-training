@@ -1,0 +1,82 @@
+{
+  "incident_001": {
+    "hidden_root_cause": "pgbouncer max_client_conn set to 100 instead of 1000",
+    "hidden_additional_dependency": "incident_007"
+  },
+  "incident_002": {
+    "hidden_root_cause": "Redis pub/sub channel cdn-invalidate-prod has 47000 pending messages due to subscriber crash",
+    "hidden_additional_dependency": null
+  },
+  "incident_003": {
+    "hidden_root_cause": "JWKS endpoint returning cached expired signing key from vault-prod-2",
+    "hidden_additional_dependency": null
+  },
+  "incident_004": {
+    "hidden_root_cause": "Node pool prod-workers-c has taint node.kubernetes.io/disk-pressure but kubelet reports 45% disk free - false positive from stale metrics",
+    "hidden_additional_dependency": "incident_010"
+  },
+  "incident_005": {
+    "hidden_root_cause": "TCP keepalive interval on payment-gateway-prod-3 set to 7200s causing stale connections through NAT gateway",
+    "hidden_additional_dependency": null
+  },
+  "incident_006": {
+    "hidden_root_cause": "data-hot-node-7 ran out of disk after audit-logs-2026.05.07 index grew to 340GB due to debug logging enabled in auth-service",
+    "hidden_additional_dependency": "incident_003"
+  },
+  "incident_007": {
+    "hidden_root_cause": "CoreDNS ConfigMap has forward directive pointing to decommissioned resolver 10.0.1.53 as secondary",
+    "hidden_additional_dependency": null
+  },
+  "incident_008": {
+    "hidden_root_cause": "Consumer group event-processor-prod stuck in rebalancing loop due to session.timeout.ms=10000 being too low for 45-partition topic",
+    "hidden_additional_dependency": null
+  },
+  "incident_009": {
+    "hidden_root_cause": "cert-manager ClusterIssuer letsencrypt-prod has stale ACME account key after namespace migration",
+    "hidden_additional_dependency": null
+  },
+  "incident_010": {
+    "hidden_root_cause": "Harbor registry OIDC client secret rotated but not updated in k8s imagePullSecrets across 12 namespaces",
+    "hidden_additional_dependency": null
+  },
+  "incident_011": {
+    "hidden_root_cause": "Alertmanager config reload failed silently - webhook receiver URL has typo in pagerduty endpoint",
+    "hidden_additional_dependency": null
+  },
+  "incident_012": {
+    "hidden_root_cause": "Spark executor memory set to 4g but new customer_events table has 3x row size after schema migration added 47 new columns",
+    "hidden_additional_dependency": null
+  },
+  "incident_013": {
+    "hidden_root_cause": "Health check path /healthz on api-gateway v2.14.3 has 2-second cold start but ALB timeout set to 2s causing race condition",
+    "hidden_additional_dependency": null
+  },
+  "incident_014": {
+    "hidden_root_cause": "Sentinel quorum set to 1 instead of 2 after maintenance, causing split-brain between redis-master-1 and redis-master-2",
+    "hidden_additional_dependency": null
+  },
+  "incident_015": {
+    "hidden_root_cause": "MinIO IAM policy for service-account media-pipeline-sa was overwritten during terraform apply with empty policy document",
+    "hidden_additional_dependency": "incident_012"
+  },
+  "incident_016": {
+    "hidden_root_cause": "N+1 query in ProductResolver.reviews field - each product triggers separate DB query for reviews instead of batched DataLoader",
+    "hidden_additional_dependency": null
+  },
+  "incident_017": {
+    "hidden_root_cause": "GitLab CI job deploy-staging has VAULT_TOKEN printed in debug output, token has admin policy attached",
+    "hidden_additional_dependency": null
+  },
+  "incident_018": {
+    "hidden_root_cause": "VirtualService weight-based routing has staging destination with weight 5 instead of 0 after canary rollback",
+    "hidden_additional_dependency": null
+  },
+  "incident_019": {
+    "hidden_root_cause": "pg_basebackup running on replica-3 which has 2GB WAL replay lag, causing inconsistent snapshot",
+    "hidden_additional_dependency": "incident_015"
+  },
+  "incident_020": {
+    "hidden_root_cause": "Rate limiter Lua script in Redis uses KEYS[1] pattern ratelimit:* but client IDs with colons bypass the pattern match",
+    "hidden_additional_dependency": null
+  }
+}

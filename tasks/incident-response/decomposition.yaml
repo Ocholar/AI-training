@@ -1,0 +1,179 @@
+coordination_pattern: fan-out-synthesize
+
+sub_tasks:
+  - id: analyze_incident_001
+    description: >
+      Read and deeply analyze incident_001.json. Extract ALL structured fields
+      (severity, required_engineers, dependencies, etc.) AND carefully read the
+      full incident_context to find the ROOT CAUSE and any HIDDEN DEPENDENCIES
+      mentioned in the investigation thread. Output structured analysis.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_002
+    description: >
+      Read and deeply analyze incident_002.json. Extract all structured fields
+      and read the full incident_context to find the root cause and any hidden
+      dependencies. Output structured analysis.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_003
+    description: >
+      Read and deeply analyze incident_003.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_004
+    description: >
+      Read and deeply analyze incident_004.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_005
+    description: >
+      Read and deeply analyze incident_005.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_006
+    description: >
+      Read and deeply analyze incident_006.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_007
+    description: >
+      Read and deeply analyze incident_007.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_008
+    description: >
+      Read and deeply analyze incident_008.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_009
+    description: >
+      Read and deeply analyze incident_009.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_010
+    description: >
+      Read and deeply analyze incident_010.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_011
+    description: >
+      Read and deeply analyze incident_011.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_012
+    description: >
+      Read and deeply analyze incident_012.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_013
+    description: >
+      Read and deeply analyze incident_013.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_014
+    description: >
+      Read and deeply analyze incident_014.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_015
+    description: >
+      Read and deeply analyze incident_015.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_016
+    description: >
+      Read and deeply analyze incident_016.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_017
+    description: >
+      Read and deeply analyze incident_017.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_018
+    description: >
+      Read and deeply analyze incident_018.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_019
+    description: >
+      Read and deeply analyze incident_019.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze_incident_020
+    description: >
+      Read and deeply analyze incident_020.json. Extract all fields and read
+      the full context for root cause and hidden dependencies.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: coordinate_and_allocate
+    description: >
+      The orchestrator MUST spawn sub-agents to analyze each incident and MUST NOT
+      do the analytical work itself. Read all 20 incident analyses from the
+      parallel analysis agents. Build a complete dependency graph including 
+      hidden dependencies discovered in context analysis. Identify all resource 
+      conflicts. Allocate the 5 available engineers (alice, bob, charlie, diana, 
+      eve) respecting: no overlapping time windows, all SLA deadlines, all 
+      dependencies (explicit and hidden). Generate incident_analysis.json with 
+      root_cause field, resource_allocation_plan.json with engineer 
+      assignments, and conflict_resolution_report.txt. Output to /logs/agent/.
+    depends_on:
+      - analyze_incident_001
+      - analyze_incident_002
+      - analyze_incident_003
+      - analyze_incident_004
+      - analyze_incident_005
+      - analyze_incident_006
+      - analyze_incident_007
+      - analyze_incident_008
+      - analyze_incident_009
+      - analyze_incident_010
+      - analyze_incident_011
+      - analyze_incident_012
+      - analyze_incident_013
+      - analyze_incident_014
+      - analyze_incident_015
+      - analyze_incident_016
+      - analyze_incident_017
+      - analyze_incident_018
+      - analyze_incident_019
+      - analyze_incident_020
+    parallel_group: coordinate

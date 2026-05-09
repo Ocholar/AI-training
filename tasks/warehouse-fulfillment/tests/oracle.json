@@ -1,0 +1,5731 @@
+{
+  "order_fulfillment_plan": [
+    {
+      "order_id": "KE-WH-20260429-5981",
+      "customer": "Mombasa Textiles",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-07T19:15:00",
+      "status": "fulfilled",
+      "requested_units": 41,
+      "allocated_units": 41,
+      "assigned_items": [
+        {
+          "sku": "1189069471",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-7024",
+      "customer": "Meru Traders",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-07T21:15:00",
+      "status": "fulfilled",
+      "requested_units": 15,
+      "allocated_units": 15,
+      "assigned_items": [
+        {
+          "sku": "4509193538",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3814707725",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260504-0620",
+      "customer": "Kericho Tea Mart",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-07T22:00:00",
+      "status": "fulfilled",
+      "requested_units": 11,
+      "allocated_units": 11,
+      "assigned_items": [
+        {
+          "sku": "1050907299",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-6672",
+      "customer": "Ruiru Pharmacy",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-07T23:45:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "7576254937",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-8448",
+      "customer": "Mombasa Textiles",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-08T00:30:00",
+      "status": "fulfilled",
+      "requested_units": 11,
+      "allocated_units": 11,
+      "assigned_items": [
+        {
+          "sku": "7299825093",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 3
+            },
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4817185633",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-9297",
+      "customer": "Nanyuki Outfitters",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-08T03:15:00",
+      "status": "fulfilled",
+      "requested_units": 2,
+      "allocated_units": 2,
+      "assigned_items": [
+        {
+          "sku": "5239644416",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4414273239",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-4112",
+      "customer": "Nyeri Clinics",
+      "urgency": "CRITICAL",
+      "sla_deadline": "2026-05-08T04:30:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "3663648895",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260504-4522",
+      "customer": "Karen Foods",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T00:30:00",
+      "status": "fulfilled",
+      "requested_units": 2,
+      "allocated_units": 2,
+      "assigned_items": [
+        {
+          "sku": "1650080836",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8418956943",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-1390",
+      "customer": "Nakuru Medics",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T03:30:00",
+      "status": "fulfilled",
+      "requested_units": 23,
+      "allocated_units": 23,
+      "assigned_items": [
+        {
+          "sku": "4509193538",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 3
+            },
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "8361756821",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-0811",
+      "customer": "Isiolo Relief Hub",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T05:15:00",
+      "status": "fulfilled",
+      "requested_units": 20,
+      "allocated_units": 20,
+      "assigned_items": [
+        {
+          "sku": "6389473430",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "7240709792",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9037027195",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-6301",
+      "customer": "Naivasha Events",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T05:30:00",
+      "status": "fulfilled",
+      "requested_units": 19,
+      "allocated_units": 19,
+      "assigned_items": [
+        {
+          "sku": "9670639225",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "1020261671",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-1016",
+      "customer": "Embu Cooperative",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T05:30:00",
+      "status": "fulfilled",
+      "requested_units": 7,
+      "allocated_units": 7,
+      "assigned_items": [
+        {
+          "sku": "5607883214",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9037027195",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-3583",
+      "customer": "Kisumu Schools",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T06:30:00",
+      "status": "fulfilled",
+      "requested_units": 24,
+      "allocated_units": 24,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "3081364312",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-4471",
+      "customer": "Nyeri Clinics",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T07:00:00",
+      "status": "fulfilled",
+      "requested_units": 37,
+      "allocated_units": 37,
+      "assigned_items": [
+        {
+          "sku": "3814707725",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "2148949298",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-3911",
+      "customer": "Naivasha Events",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T08:00:00",
+      "status": "fulfilled",
+      "requested_units": 6,
+      "allocated_units": 6,
+      "assigned_items": [
+        {
+          "sku": "3846495881",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-9164",
+      "customer": "Kericho Tea Mart",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T08:30:00",
+      "status": "fulfilled",
+      "requested_units": 18,
+      "allocated_units": 18,
+      "assigned_items": [
+        {
+          "sku": "6470716181",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "5607883214",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-6643",
+      "customer": "Meru Traders",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T10:30:00",
+      "status": "fulfilled",
+      "requested_units": 21,
+      "allocated_units": 21,
+      "assigned_items": [
+        {
+          "sku": "4720654168",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "1650080836",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8361756821",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-2721",
+      "customer": "Coastal Fresh",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T11:00:00",
+      "status": "fulfilled",
+      "requested_units": 30,
+      "allocated_units": 30,
+      "assigned_items": [
+        {
+          "sku": "4547771746",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "1820004638",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8418956943",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-6226",
+      "customer": "Embu Cooperative",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T12:00:00",
+      "status": "fulfilled",
+      "requested_units": 19,
+      "allocated_units": 19,
+      "assigned_items": [
+        {
+          "sku": "7240709792",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "4547771746",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "1650080836",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-9028",
+      "customer": "Ruiru Pharmacy",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T12:30:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "3663648895",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-8417",
+      "customer": "Meru Traders",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T13:45:00",
+      "status": "fulfilled",
+      "requested_units": 17,
+      "allocated_units": 17,
+      "assigned_items": [
+        {
+          "sku": "3846495881",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 4
+            },
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 3
+            },
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 3
+            },
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            },
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-2387",
+      "customer": "Machakos County Stores",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T14:15:00",
+      "status": "fulfilled",
+      "requested_units": 27,
+      "allocated_units": 27,
+      "assigned_items": [
+        {
+          "sku": "8277206606",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-8885",
+      "customer": "Nyeri Clinics",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T16:45:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "8418956943",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "6150042045",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5239644416",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260504-9863",
+      "customer": "Karen Foods",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T18:00:00",
+      "status": "fulfilled",
+      "requested_units": 10,
+      "allocated_units": 10,
+      "assigned_items": [
+        {
+          "sku": "8391508644",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-1589",
+      "customer": "Machakos County Stores",
+      "urgency": "HIGH",
+      "sla_deadline": "2026-05-08T20:15:00",
+      "status": "fulfilled",
+      "requested_units": 22,
+      "allocated_units": 22,
+      "assigned_items": [
+        {
+          "sku": "1729477642",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "4547771746",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-6582",
+      "customer": "Nyeri Clinics",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-08T22:30:00",
+      "status": "fulfilled",
+      "requested_units": 37,
+      "allocated_units": 37,
+      "assigned_items": [
+        {
+          "sku": "5520809954",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "1993720156",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4817185633",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "6389473430",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-7533",
+      "customer": "Nanyuki Outfitters",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-08T23:00:00",
+      "status": "fulfilled",
+      "requested_units": 4,
+      "allocated_units": 4,
+      "assigned_items": [
+        {
+          "sku": "3230150172",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "5239644416",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-4110",
+      "customer": "Karen Foods",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-08T23:15:00",
+      "status": "fulfilled",
+      "requested_units": 7,
+      "allocated_units": 7,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-0850",
+      "customer": "Nyeri Clinics",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-08T23:30:00",
+      "status": "fulfilled",
+      "requested_units": 9,
+      "allocated_units": 9,
+      "assigned_items": [
+        {
+          "sku": "4509193538",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-2203",
+      "customer": "Naivasha Events",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T00:15:00",
+      "status": "fulfilled",
+      "requested_units": 15,
+      "allocated_units": 15,
+      "assigned_items": [
+        {
+          "sku": "5520809954",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "4414273239",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1650080836",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-7119",
+      "customer": "Thika Grocers",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T01:30:00",
+      "status": "fulfilled",
+      "requested_units": 16,
+      "allocated_units": 16,
+      "assigned_items": [
+        {
+          "sku": "4720654168",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-3627",
+      "customer": "Kericho Tea Mart",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T02:15:00",
+      "status": "fulfilled",
+      "requested_units": 10,
+      "allocated_units": 10,
+      "assigned_items": [
+        {
+          "sku": "7620091070",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "1020261671",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "5180748036",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-2440",
+      "customer": "Thika Grocers",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T02:45:00",
+      "status": "fulfilled",
+      "requested_units": 18,
+      "allocated_units": 18,
+      "assigned_items": [
+        {
+          "sku": "4720654168",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "8308934206",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-3250",
+      "customer": "Kakamega General",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T04:15:00",
+      "status": "fulfilled",
+      "requested_units": 10,
+      "allocated_units": 10,
+      "assigned_items": [
+        {
+          "sku": "6470716181",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "6150042045",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-9107",
+      "customer": "Kakamega General",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T04:30:00",
+      "status": "fulfilled",
+      "requested_units": 16,
+      "allocated_units": 16,
+      "assigned_items": [
+        {
+          "sku": "4414273239",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "1020261671",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-2903",
+      "customer": "Machakos County Stores",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T06:15:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 2
+            },
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3663648895",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-6404",
+      "customer": "Embu Cooperative",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T06:15:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "1729477642",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3814707725",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-0206",
+      "customer": "Embu Cooperative",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T06:30:00",
+      "status": "fulfilled",
+      "requested_units": 23,
+      "allocated_units": 23,
+      "assigned_items": [
+        {
+          "sku": "4452461409",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "4718794570",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-2386",
+      "customer": "Kitengela Auto",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T06:45:00",
+      "status": "fulfilled",
+      "requested_units": 18,
+      "allocated_units": 18,
+      "assigned_items": [
+        {
+          "sku": "5071340546",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-6025",
+      "customer": "Meru Traders",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T07:00:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "1020261671",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "7240709792",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4718794570",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-6327",
+      "customer": "Embu Cooperative",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T08:00:00",
+      "status": "fulfilled",
+      "requested_units": 14,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "3814707725",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "4547771746",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-3693",
+      "customer": "Kilimani Mart",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T09:00:00",
+      "status": "fulfilled",
+      "requested_units": 2,
+      "allocated_units": 2,
+      "assigned_items": [
+        {
+          "sku": "3663648895",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-3914",
+      "customer": "Naivasha Events",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T09:15:00",
+      "status": "fulfilled",
+      "requested_units": 19,
+      "allocated_units": 19,
+      "assigned_items": [
+        {
+          "sku": "1729477642",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "5686639863",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-4841",
+      "customer": "Garissa Retail",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T10:15:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "5580105730",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            },
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "6150042045",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-4046",
+      "customer": "Thika Grocers",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T10:15:00",
+      "status": "fulfilled",
+      "requested_units": 25,
+      "allocated_units": 25,
+      "assigned_items": [
+        {
+          "sku": "4784255264",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3081364312",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-1896",
+      "customer": "Coastal Fresh",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T10:30:00",
+      "status": "fulfilled",
+      "requested_units": 16,
+      "allocated_units": 16,
+      "assigned_items": [
+        {
+          "sku": "4720654168",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "2148949298",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "3663648895",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "1993720156",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8418956943",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-9754",
+      "customer": "Nanyuki Outfitters",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T10:45:00",
+      "status": "fulfilled",
+      "requested_units": 15,
+      "allocated_units": 15,
+      "assigned_items": [
+        {
+          "sku": "5795701746",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1820004638",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-3027",
+      "customer": "Thika Grocers",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T12:45:00",
+      "status": "partial",
+      "requested_units": 25,
+      "allocated_units": 22,
+      "assigned_items": [
+        {
+          "sku": "4784255264",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "6389473430",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "4414273239",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 3,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "9037027195",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-6324",
+      "customer": "Mombasa Textiles",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T13:15:00",
+      "status": "partial",
+      "requested_units": 33,
+      "allocated_units": 32,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "4720654168",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5607883214",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "quantity_requested": 1,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "5239644416",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-7528",
+      "customer": "Meru Traders",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T13:30:00",
+      "status": "fulfilled",
+      "requested_units": 16,
+      "allocated_units": 16,
+      "assigned_items": [
+        {
+          "sku": "8764687742",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3230150172",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "6150042045",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-7673",
+      "customer": "Kisumu Schools",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T14:00:00",
+      "status": "partial",
+      "requested_units": 5,
+      "allocated_units": 2,
+      "assigned_items": [
+        {
+          "sku": "8277206606",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 3,
+          "quantity_allocated": 0,
+          "allocations": []
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-9963",
+      "customer": "Thika Grocers",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T15:30:00",
+      "status": "fulfilled",
+      "requested_units": 19,
+      "allocated_units": 19,
+      "assigned_items": [
+        {
+          "sku": "9670639225",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5071340546",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-5410",
+      "customer": "Eldoret Hardware",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T15:45:00",
+      "status": "fulfilled",
+      "requested_units": 43,
+      "allocated_units": 43,
+      "assigned_items": [
+        {
+          "sku": "6150042045",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5071340546",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 5
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-3698",
+      "customer": "Ruiru Pharmacy",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T16:15:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "4547771746",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1820004638",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-0625",
+      "customer": "Kakamega General",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T17:00:00",
+      "status": "fulfilled",
+      "requested_units": 2,
+      "allocated_units": 2,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-9392",
+      "customer": "Kakamega General",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T17:00:00",
+      "status": "fulfilled",
+      "requested_units": 30,
+      "allocated_units": 30,
+      "assigned_items": [
+        {
+          "sku": "2148949298",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8418956943",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5071340546",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-8827",
+      "customer": "Isiolo Relief Hub",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T18:30:00",
+      "status": "fulfilled",
+      "requested_units": 13,
+      "allocated_units": 13,
+      "assigned_items": [
+        {
+          "sku": "1820004638",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9037027195",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "5686639863",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5180748036",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260430-8937",
+      "customer": "Kakamega General",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T20:00:00",
+      "status": "fulfilled",
+      "requested_units": 35,
+      "allocated_units": 35,
+      "assigned_items": [
+        {
+          "sku": "1993720156",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "3450538744",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3230150172",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-2764",
+      "customer": "Ruiru Pharmacy",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T20:15:00",
+      "status": "fulfilled",
+      "requested_units": 13,
+      "allocated_units": 13,
+      "assigned_items": [
+        {
+          "sku": "7620091070",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "6389473430",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-0419",
+      "customer": "Karen Foods",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T20:15:00",
+      "status": "fulfilled",
+      "requested_units": 17,
+      "allocated_units": 17,
+      "assigned_items": [
+        {
+          "sku": "2148949298",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "7620091070",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260504-3711",
+      "customer": "Kitengela Auto",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T21:15:00",
+      "status": "fulfilled",
+      "requested_units": 26,
+      "allocated_units": 26,
+      "assigned_items": [
+        {
+          "sku": "8361756821",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "1993720156",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "4720654168",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-1843",
+      "customer": "Nyeri Clinics",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T22:00:00",
+      "status": "fulfilled",
+      "requested_units": 5,
+      "allocated_units": 5,
+      "assigned_items": [
+        {
+          "sku": "3824027894",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-1976",
+      "customer": "Nakuru Medics",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-09T23:45:00",
+      "status": "partial",
+      "requested_units": 11,
+      "allocated_units": 9,
+      "assigned_items": [
+        {
+          "sku": "5580105730",
+          "quantity_requested": 2,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "2148949298",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-1184",
+      "customer": "Karen Foods",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T02:00:00",
+      "status": "fulfilled",
+      "requested_units": 10,
+      "allocated_units": 10,
+      "assigned_items": [
+        {
+          "sku": "8277206606",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "3230150172",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 4
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-0509",
+      "customer": "Mombasa Textiles",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T04:45:00",
+      "status": "partial",
+      "requested_units": 15,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "7136819118",
+          "quantity_requested": 7,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4720654168",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260501-4474",
+      "customer": "Coastal Fresh",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T06:15:00",
+      "status": "fulfilled",
+      "requested_units": 6,
+      "allocated_units": 6,
+      "assigned_items": [
+        {
+          "sku": "4718794570",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "3814707725",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1020261671",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-9144",
+      "customer": "Kisumu Schools",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T06:30:00",
+      "status": "fulfilled",
+      "requested_units": 5,
+      "allocated_units": 5,
+      "assigned_items": [
+        {
+          "sku": "3846495881",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8361756821",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5686639863",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-5920",
+      "customer": "Kericho Tea Mart",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T07:00:00",
+      "status": "partial",
+      "requested_units": 16,
+      "allocated_units": 11,
+      "assigned_items": [
+        {
+          "sku": "3846495881",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "quantity_requested": 5,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "9037027195",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5607883214",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "4817185633",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-4415",
+      "customer": "Karen Foods",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T08:00:00",
+      "status": "partial",
+      "requested_units": 7,
+      "allocated_units": 6,
+      "assigned_items": [
+        {
+          "sku": "1729477642",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "4784255264",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "quantity_requested": 1,
+          "quantity_allocated": 0,
+          "allocations": []
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-1927",
+      "customer": "Kisumu Schools",
+      "urgency": "STANDARD",
+      "sla_deadline": "2026-05-10T08:30:00",
+      "status": "fulfilled",
+      "requested_units": 18,
+      "allocated_units": 18,
+      "assigned_items": [
+        {
+          "sku": "8346316198",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3814707725",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-9295",
+      "customer": "Kakamega General",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T08:45:00",
+      "status": "partial",
+      "requested_units": 31,
+      "allocated_units": 26,
+      "assigned_items": [
+        {
+          "sku": "5580105730",
+          "quantity_requested": 5,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "5795701746",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 13
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260428-1635",
+      "customer": "Mombasa Textiles",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T10:45:00",
+      "status": "fulfilled",
+      "requested_units": 36,
+      "allocated_units": 36,
+      "assigned_items": [
+        {
+          "sku": "3824027894",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5071340546",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-4652",
+      "customer": "Kakamega General",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T13:00:00",
+      "status": "partial",
+      "requested_units": 9,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "9974190470",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 1,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "7240709792",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-1774",
+      "customer": "Meru Traders",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T14:30:00",
+      "status": "partial",
+      "requested_units": 24,
+      "allocated_units": 21,
+      "assigned_items": [
+        {
+          "sku": "5402054684",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 3,
+          "quantity_allocated": 0,
+          "allocations": []
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-6047",
+      "customer": "Nakuru Medics",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T16:15:00",
+      "status": "fulfilled",
+      "requested_units": 7,
+      "allocated_units": 7,
+      "assigned_items": [
+        {
+          "sku": "4718794570",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260507-3358",
+      "customer": "Karen Foods",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T21:15:00",
+      "status": "partial",
+      "requested_units": 18,
+      "allocated_units": 16,
+      "assigned_items": [
+        {
+          "sku": "7299825093",
+          "quantity_requested": 5,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            },
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "3846495881",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "3450538744",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260504-9871",
+      "customer": "Kilimani Mart",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-10T22:15:00",
+      "status": "fulfilled",
+      "requested_units": 21,
+      "allocated_units": 21,
+      "assigned_items": [
+        {
+          "sku": "2438360099",
+          "quantity_requested": 13,
+          "quantity_allocated": 13,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-0109",
+      "customer": "Naivasha Events",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T00:45:00",
+      "status": "partial",
+      "requested_units": 14,
+      "allocated_units": 9,
+      "assigned_items": [
+        {
+          "sku": "6470716181",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "quantity_requested": 5,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "8391508644",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-8062",
+      "customer": "Kakamega General",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T05:45:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "5795701746",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-7223",
+      "customer": "Mombasa Textiles",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T07:00:00",
+      "status": "fulfilled",
+      "requested_units": 4,
+      "allocated_units": 4,
+      "assigned_items": [
+        {
+          "sku": "8391508644",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "sku": "8308934206",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-9035",
+      "customer": "Eldoret Hardware",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T08:45:00",
+      "status": "fulfilled",
+      "requested_units": 13,
+      "allocated_units": 13,
+      "assigned_items": [
+        {
+          "sku": "8392478320",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "A-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "1993720156",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "quantity_requested": 3,
+          "quantity_allocated": 3,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 3
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260429-9774",
+      "customer": "Kisumu Schools",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T11:15:00",
+      "status": "fulfilled",
+      "requested_units": 4,
+      "allocated_units": 4,
+      "assigned_items": [
+        {
+          "sku": "2220036525",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "J-MEZZANINE",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8361756821",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260505-8769",
+      "customer": "Nyeri Clinics",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T11:15:00",
+      "status": "fulfilled",
+      "requested_units": 9,
+      "allocated_units": 9,
+      "assigned_items": [
+        {
+          "sku": "4784255264",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "K-RESERVE",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "5180748036",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "H-CROSS-DOCK",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260502-4023",
+      "customer": "Ruiru Pharmacy",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T13:00:00",
+      "status": "fulfilled",
+      "requested_units": 8,
+      "allocated_units": 8,
+      "assigned_items": [
+        {
+          "sku": "6389473430",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "9670639225",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "3450538744",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "C-BULK",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260503-9991",
+      "customer": "Kitengela Auto",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-11T17:15:00",
+      "status": "partial",
+      "requested_units": 18,
+      "allocated_units": 15,
+      "assigned_items": [
+        {
+          "sku": "6389473430",
+          "quantity_requested": 4,
+          "quantity_allocated": 4,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "quantity_requested": 2,
+          "quantity_allocated": 2,
+          "allocations": [
+            {
+              "warehouse_zone": "B-FAST-PICK",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "sku": "5071340546",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "E-HAZMAT",
+              "quantity": 8
+            }
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "quantity_requested": 3,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "3846495881",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    },
+    {
+      "order_id": "KE-WH-20260506-4404",
+      "customer": "Mombasa Textiles",
+      "urgency": "ECONOMY",
+      "sla_deadline": "2026-05-12T07:00:00",
+      "status": "partial",
+      "requested_units": 15,
+      "allocated_units": 14,
+      "assigned_items": [
+        {
+          "sku": "4720654168",
+          "quantity_requested": 5,
+          "quantity_allocated": 5,
+          "allocations": [
+            {
+              "warehouse_zone": "G-RETURNS-QA",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "quantity_requested": 1,
+          "quantity_allocated": 0,
+          "allocations": []
+        },
+        {
+          "sku": "7240709792",
+          "quantity_requested": 1,
+          "quantity_allocated": 1,
+          "allocations": [
+            {
+              "warehouse_zone": "F-OVERFLOW",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "sku": "3450538744",
+          "quantity_requested": 8,
+          "quantity_allocated": 8,
+          "allocations": [
+            {
+              "warehouse_zone": "D-COLD-CHAIN",
+              "quantity": 8
+            }
+          ]
+        }
+      ],
+      "reasoning": "Allocated by priority and earliest deadline while preventing overselling and restricting cold-chain items to allowed zones."
+    }
+  ],
+  "warehouse_picking_lists": [
+    {
+      "warehouse_zone": "A-FAST-PICK",
+      "items_to_pick": [
+        {
+          "sku": "5402054684",
+          "total_quantity": 34,
+          "order_ids": [
+            "KE-WH-20260503-3583",
+            "KE-WH-20260505-9107",
+            "KE-WH-20260428-4046",
+            "KE-WH-20260428-1635"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260505-8885",
+            "KE-WH-20260429-2903"
+          ]
+        },
+        {
+          "sku": "3846495881",
+          "total_quantity": 6,
+          "order_ids": [
+            "KE-WH-20260429-9144",
+            "KE-WH-20260503-5920"
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260429-9035"
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260430-8448"
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "total_quantity": 31,
+          "order_ids": [
+            "KE-WH-20260430-2721",
+            "KE-WH-20260430-6226",
+            "KE-WH-20260505-1589",
+            "KE-WH-20260429-3914",
+            "KE-WH-20260506-1843",
+            "KE-WH-20260428-4415",
+            "KE-WH-20260428-1635",
+            "KE-WH-20260503-4652"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260502-8417"
+          ]
+        }
+      ],
+      "total_picks": 81,
+      "capacity_limit": 160
+    },
+    {
+      "warehouse_zone": "B-FAST-PICK",
+      "items_to_pick": [
+        {
+          "sku": "1993720156",
+          "total_quantity": 38,
+          "order_ids": [
+            "KE-WH-20260505-6582",
+            "KE-WH-20260428-1896",
+            "KE-WH-20260430-8937",
+            "KE-WH-20260504-3711"
+          ]
+        },
+        {
+          "sku": "4414273239",
+          "total_quantity": 9,
+          "order_ids": [
+            "KE-WH-20260501-9297",
+            "KE-WH-20260430-2203",
+            "KE-WH-20260505-9107",
+            "KE-WH-20260506-3027"
+          ]
+        },
+        {
+          "sku": "3824027894",
+          "total_quantity": 42,
+          "order_ids": [
+            "KE-WH-20260429-6301",
+            "KE-WH-20260503-3583",
+            "KE-WH-20260505-1589",
+            "KE-WH-20260505-6582",
+            "KE-WH-20260430-2203",
+            "KE-WH-20260430-8937",
+            "KE-WH-20260506-1843",
+            "KE-WH-20260428-1635",
+            "KE-WH-20260429-6047"
+          ]
+        },
+        {
+          "sku": "5686639863",
+          "total_quantity": 9,
+          "order_ids": [
+            "KE-WH-20260429-3914",
+            "KE-WH-20260429-9144"
+          ]
+        },
+        {
+          "sku": "2148949298",
+          "total_quantity": 18,
+          "order_ids": [
+            "KE-WH-20260506-4471",
+            "KE-WH-20260428-1896",
+            "KE-WH-20260501-9392",
+            "KE-WH-20260505-0419",
+            "KE-WH-20260428-1976"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260503-3583",
+            "KE-WH-20260501-0625"
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260501-9392",
+            "KE-WH-20260507-3358"
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "total_quantity": 15,
+          "order_ids": [
+            "KE-WH-20260501-9028",
+            "KE-WH-20260505-2440",
+            "KE-WH-20260507-5410",
+            "KE-WH-20260503-9991"
+          ]
+        }
+      ],
+      "total_picks": 137,
+      "capacity_limit": 150
+    },
+    {
+      "warehouse_zone": "C-BULK",
+      "items_to_pick": [
+        {
+          "sku": "4509193538",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260429-0850"
+          ]
+        },
+        {
+          "sku": "8418956943",
+          "total_quantity": 21,
+          "order_ids": [
+            "KE-WH-20260504-4522",
+            "KE-WH-20260430-2721",
+            "KE-WH-20260505-8885",
+            "KE-WH-20260428-1896",
+            "KE-WH-20260501-9392"
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260506-4471",
+            "KE-WH-20260429-0850",
+            "KE-WH-20260502-6025",
+            "KE-WH-20260502-7528",
+            "KE-WH-20260502-4023"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260506-4110"
+          ]
+        },
+        {
+          "sku": "3814707725",
+          "total_quantity": 19,
+          "order_ids": [
+            "KE-WH-20260430-7024",
+            "KE-WH-20260506-4471",
+            "KE-WH-20260429-6404",
+            "KE-WH-20260429-6327",
+            "KE-WH-20260501-4474",
+            "KE-WH-20260503-1927"
+          ]
+        },
+        {
+          "sku": "1020261671",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260429-6301",
+            "KE-WH-20260430-3627",
+            "KE-WH-20260505-9107",
+            "KE-WH-20260502-6025",
+            "KE-WH-20260501-4474"
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "total_quantity": 13,
+          "order_ids": [
+            "KE-WH-20260428-9295"
+          ]
+        },
+        {
+          "sku": "8392478320",
+          "total_quantity": 32,
+          "order_ids": [
+            "KE-WH-20260429-5981",
+            "KE-WH-20260507-1390",
+            "KE-WH-20260503-1016",
+            "KE-WH-20260504-9863",
+            "KE-WH-20260429-0850",
+            "KE-WH-20260429-3914",
+            "KE-WH-20260429-9035"
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260505-8885",
+            "KE-WH-20260429-9774"
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "total_quantity": 17,
+          "order_ids": [
+            "KE-WH-20260504-0620",
+            "KE-WH-20260502-2387"
+          ]
+        },
+        {
+          "sku": "4547771746",
+          "total_quantity": 25,
+          "order_ids": [
+            "KE-WH-20260430-2721",
+            "KE-WH-20260430-6226",
+            "KE-WH-20260505-1589",
+            "KE-WH-20260429-6327",
+            "KE-WH-20260506-3698"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260502-8417"
+          ]
+        },
+        {
+          "sku": "5500070010",
+          "total_quantity": 17,
+          "order_ids": [
+            "KE-WH-20260506-4471",
+            "KE-WH-20260502-1184"
+          ]
+        },
+        {
+          "sku": "4718794570",
+          "total_quantity": 13,
+          "order_ids": [
+            "KE-WH-20260502-0206"
+          ]
+        }
+      ],
+      "total_picks": 188,
+      "capacity_limit": 90
+    },
+    {
+      "warehouse_zone": "D-COLD-CHAIN",
+      "items_to_pick": [
+        {
+          "sku": "3450538744",
+          "total_quantity": 10,
+          "order_ids": [
+            "KE-WH-20260507-3358",
+            "KE-WH-20260502-4023",
+            "KE-WH-20260506-4404"
+          ]
+        },
+        {
+          "sku": "5607883214",
+          "total_quantity": 10,
+          "order_ids": [
+            "KE-WH-20260503-1016",
+            "KE-WH-20260502-9164",
+            "KE-WH-20260429-6324",
+            "KE-WH-20260503-5920"
+          ]
+        },
+        {
+          "sku": "5537995617",
+          "total_quantity": 23,
+          "order_ids": [
+            "KE-WH-20260429-5981",
+            "KE-WH-20260506-4110",
+            "KE-WH-20260507-7119",
+            "KE-WH-20260506-3698",
+            "KE-WH-20260505-0419",
+            "KE-WH-20260428-1635"
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260430-7024",
+            "KE-WH-20260429-0850"
+          ]
+        },
+        {
+          "sku": "1820004638",
+          "total_quantity": 15,
+          "order_ids": [
+            "KE-WH-20260430-2721",
+            "KE-WH-20260505-9754"
+          ]
+        },
+        {
+          "sku": "3230150172",
+          "total_quantity": 14,
+          "order_ids": [
+            "KE-WH-20260430-7533",
+            "KE-WH-20260502-7528",
+            "KE-WH-20260430-8937",
+            "KE-WH-20260502-1184"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260429-2903"
+          ]
+        },
+        {
+          "sku": "2438360099",
+          "total_quantity": 54,
+          "order_ids": [
+            "KE-WH-20260506-4471",
+            "KE-WH-20260501-3911",
+            "KE-WH-20260501-9028",
+            "KE-WH-20260429-0850",
+            "KE-WH-20260505-9107",
+            "KE-WH-20260503-1927",
+            "KE-WH-20260504-9871"
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "total_quantity": 34,
+          "order_ids": [
+            "KE-WH-20260429-5981",
+            "KE-WH-20260502-4112",
+            "KE-WH-20260502-9164",
+            "KE-WH-20260507-3250",
+            "KE-WH-20260428-1896",
+            "KE-WH-20260429-6047"
+          ]
+        },
+        {
+          "sku": "5180748036",
+          "total_quantity": 9,
+          "order_ids": [
+            "KE-WH-20260430-3627",
+            "KE-WH-20260429-8827",
+            "KE-WH-20260505-8769"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260502-8417",
+            "KE-WH-20260501-4841"
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "total_quantity": 10,
+          "order_ids": [
+            "KE-WH-20260505-9754",
+            "KE-WH-20260506-3027",
+            "KE-WH-20260507-3358"
+          ]
+        },
+        {
+          "sku": "9670639225",
+          "total_quantity": 31,
+          "order_ids": [
+            "KE-WH-20260429-6301",
+            "KE-WH-20260506-9963",
+            "KE-WH-20260502-4023"
+          ]
+        },
+        {
+          "sku": "8308934206",
+          "total_quantity": 9,
+          "order_ids": [
+            "KE-WH-20260505-2440",
+            "KE-WH-20260502-7223"
+          ]
+        }
+      ],
+      "total_picks": 226,
+      "capacity_limit": 55
+    },
+    {
+      "warehouse_zone": "E-HAZMAT",
+      "items_to_pick": [
+        {
+          "sku": "5071340546",
+          "total_quantity": 46,
+          "order_ids": [
+            "KE-WH-20260501-2386",
+            "KE-WH-20260506-9963",
+            "KE-WH-20260507-5410",
+            "KE-WH-20260501-9392",
+            "KE-WH-20260428-1635",
+            "KE-WH-20260503-9991"
+          ]
+        },
+        {
+          "sku": "8361756821",
+          "total_quantity": 19,
+          "order_ids": [
+            "KE-WH-20260507-1390",
+            "KE-WH-20260507-6643",
+            "KE-WH-20260504-3711",
+            "KE-WH-20260429-9144",
+            "KE-WH-20260429-9774"
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "total_quantity": 16,
+          "order_ids": [
+            "KE-WH-20260430-7024",
+            "KE-WH-20260505-6582",
+            "KE-WH-20260429-6327"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260501-4841"
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "total_quantity": 5,
+          "order_ids": [
+            "KE-WH-20260429-8062"
+          ]
+        }
+      ],
+      "total_picks": 87,
+      "capacity_limit": 35
+    },
+    {
+      "warehouse_zone": "F-OVERFLOW",
+      "items_to_pick": [
+        {
+          "sku": "7240709792",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260502-0811",
+            "KE-WH-20260430-6226",
+            "KE-WH-20260502-6025",
+            "KE-WH-20260503-4652",
+            "KE-WH-20260506-4404"
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260429-0850"
+          ]
+        },
+        {
+          "sku": "9037027195",
+          "total_quantity": 13,
+          "order_ids": [
+            "KE-WH-20260502-0811",
+            "KE-WH-20260503-1016",
+            "KE-WH-20260506-3027",
+            "KE-WH-20260429-8827",
+            "KE-WH-20260503-5920"
+          ]
+        },
+        {
+          "sku": "5686639863",
+          "total_quantity": 5,
+          "order_ids": [
+            "KE-WH-20260429-8827"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260429-8827"
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "total_quantity": 9,
+          "order_ids": [
+            "KE-WH-20260504-0620",
+            "KE-WH-20260502-0811",
+            "KE-WH-20260429-6047"
+          ]
+        },
+        {
+          "sku": "6389473430",
+          "total_quantity": 39,
+          "order_ids": [
+            "KE-WH-20260502-0811",
+            "KE-WH-20260505-6582",
+            "KE-WH-20260506-3027",
+            "KE-WH-20260503-2764",
+            "KE-WH-20260502-4023",
+            "KE-WH-20260503-9991"
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260430-8448"
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260502-1184"
+          ]
+        },
+        {
+          "sku": "1729477642",
+          "total_quantity": 24,
+          "order_ids": [
+            "KE-WH-20260430-7533",
+            "KE-WH-20260429-6404",
+            "KE-WH-20260502-7528",
+            "KE-WH-20260501-9392"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260429-6301",
+            "KE-WH-20260501-4841"
+          ]
+        },
+        {
+          "sku": "5795701746",
+          "total_quantity": 14,
+          "order_ids": [
+            "KE-WH-20260428-1976",
+            "KE-WH-20260428-9295"
+          ]
+        }
+      ],
+      "total_picks": 125,
+      "capacity_limit": 70
+    },
+    {
+      "warehouse_zone": "G-RETURNS-QA",
+      "items_to_pick": [
+        {
+          "sku": "4720654168",
+          "total_quantity": 42,
+          "order_ids": [
+            "KE-WH-20260507-6643",
+            "KE-WH-20260507-7119",
+            "KE-WH-20260505-2440",
+            "KE-WH-20260428-1896",
+            "KE-WH-20260429-6324",
+            "KE-WH-20260504-3711",
+            "KE-WH-20260429-0509",
+            "KE-WH-20260506-4404"
+          ]
+        },
+        {
+          "sku": "1050907299",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260503-1016",
+            "KE-WH-20260506-9963"
+          ]
+        },
+        {
+          "sku": "3846495881",
+          "total_quantity": 7,
+          "order_ids": [
+            "KE-WH-20260501-3911",
+            "KE-WH-20260502-8417",
+            "KE-WH-20260507-3358",
+            "KE-WH-20260503-9991"
+          ]
+        },
+        {
+          "sku": "7620091070",
+          "total_quantity": 18,
+          "order_ids": [
+            "KE-WH-20260430-3627",
+            "KE-WH-20260503-2764",
+            "KE-WH-20260505-0419"
+          ]
+        },
+        {
+          "sku": "5239644416",
+          "total_quantity": 18,
+          "order_ids": [
+            "KE-WH-20260501-9297",
+            "KE-WH-20260505-8885",
+            "KE-WH-20260430-7533",
+            "KE-WH-20260429-6324"
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260502-4112",
+            "KE-WH-20260507-3358"
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260429-8827"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260501-4841"
+          ]
+        },
+        {
+          "sku": "1650080836",
+          "total_quantity": 19,
+          "order_ids": [
+            "KE-WH-20260504-4522",
+            "KE-WH-20260507-6643",
+            "KE-WH-20260430-6226",
+            "KE-WH-20260430-2203"
+          ]
+        },
+        {
+          "sku": "4718794570",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260502-6025",
+            "KE-WH-20260501-4474",
+            "KE-WH-20260429-6047"
+          ]
+        }
+      ],
+      "total_picks": 126,
+      "capacity_limit": 30
+    },
+    {
+      "warehouse_zone": "H-CROSS-DOCK",
+      "items_to_pick": [
+        {
+          "sku": "1993720156",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260429-9035"
+          ]
+        },
+        {
+          "sku": "3450538744",
+          "total_quantity": 8,
+          "order_ids": [
+            "KE-WH-20260430-8937"
+          ]
+        },
+        {
+          "sku": "4452461409",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260501-3911",
+            "KE-WH-20260502-0206",
+            "KE-WH-20260502-6025"
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260506-4471"
+          ]
+        },
+        {
+          "sku": "8391508644",
+          "total_quantity": 25,
+          "order_ids": [
+            "KE-WH-20260504-0620",
+            "KE-WH-20260507-6643",
+            "KE-WH-20260430-2721",
+            "KE-WH-20260504-9863",
+            "KE-WH-20260430-2203",
+            "KE-WH-20260502-7528",
+            "KE-WH-20260429-0509",
+            "KE-WH-20260506-0109",
+            "KE-WH-20260502-7223"
+          ]
+        },
+        {
+          "sku": "1820004638",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260506-3698",
+            "KE-WH-20260429-8827"
+          ]
+        },
+        {
+          "sku": "8764687742",
+          "total_quantity": 7,
+          "order_ids": [
+            "KE-WH-20260503-3693",
+            "KE-WH-20260501-0625",
+            "KE-WH-20260429-9144",
+            "KE-WH-20260503-1774"
+          ]
+        },
+        {
+          "sku": "7576254937",
+          "total_quantity": 24,
+          "order_ids": [
+            "KE-WH-20260503-6672",
+            "KE-WH-20260505-8885",
+            "KE-WH-20260503-2764",
+            "KE-WH-20260504-3711",
+            "KE-WH-20260504-9871",
+            "KE-WH-20260506-0109"
+          ]
+        },
+        {
+          "sku": "3663648895",
+          "total_quantity": 6,
+          "order_ids": [
+            "KE-WH-20260501-9028",
+            "KE-WH-20260429-2903",
+            "KE-WH-20260503-3693"
+          ]
+        },
+        {
+          "sku": "3081364312",
+          "total_quantity": 17,
+          "order_ids": [
+            "KE-WH-20260503-3583",
+            "KE-WH-20260428-4046"
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "total_quantity": 21,
+          "order_ids": [
+            "KE-WH-20260429-5981",
+            "KE-WH-20260507-5410"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 1,
+          "order_ids": [
+            "KE-WH-20260501-4841"
+          ]
+        },
+        {
+          "sku": "8346316198",
+          "total_quantity": 18,
+          "order_ids": [
+            "KE-WH-20260430-8448",
+            "KE-WH-20260507-3250",
+            "KE-WH-20260502-6025",
+            "KE-WH-20260430-7673",
+            "KE-WH-20260506-3698",
+            "KE-WH-20260503-1927",
+            "KE-WH-20260429-9035",
+            "KE-WH-20260505-8769"
+          ]
+        }
+      ],
+      "total_picks": 146,
+      "capacity_limit": 80
+    },
+    {
+      "warehouse_zone": "J-MEZZANINE",
+      "items_to_pick": [
+        {
+          "sku": "4509193538",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260507-1390"
+          ]
+        },
+        {
+          "sku": "7136819118",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260429-6324"
+          ]
+        },
+        {
+          "sku": "9974190470",
+          "total_quantity": 25,
+          "order_ids": [
+            "KE-WH-20260502-4112",
+            "KE-WH-20260505-2440",
+            "KE-WH-20260429-2903",
+            "KE-WH-20260501-2386",
+            "KE-WH-20260501-4841",
+            "KE-WH-20260503-4652",
+            "KE-WH-20260503-1774",
+            "KE-WH-20260429-8062"
+          ]
+        },
+        {
+          "sku": "2220036525",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260502-0206",
+            "KE-WH-20260429-9774"
+          ]
+        },
+        {
+          "sku": "5520809954",
+          "total_quantity": 7,
+          "order_ids": [
+            "KE-WH-20260502-2387",
+            "KE-WH-20260430-2203",
+            "KE-WH-20260501-9392"
+          ]
+        },
+        {
+          "sku": "8074279928",
+          "total_quantity": 13,
+          "order_ids": [
+            "KE-WH-20260430-7024",
+            "KE-WH-20260503-6672",
+            "KE-WH-20260507-5410"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 3,
+          "order_ids": [
+            "KE-WH-20260502-8417"
+          ]
+        },
+        {
+          "sku": "4817185633",
+          "total_quantity": 7,
+          "order_ids": [
+            "KE-WH-20260430-8448",
+            "KE-WH-20260503-5920"
+          ]
+        }
+      ],
+      "total_picks": 63,
+      "capacity_limit": 65
+    },
+    {
+      "warehouse_zone": "K-RESERVE",
+      "items_to_pick": [
+        {
+          "sku": "4784255264",
+          "total_quantity": 51,
+          "order_ids": [
+            "KE-WH-20260430-2721",
+            "KE-WH-20260502-2387",
+            "KE-WH-20260506-4110",
+            "KE-WH-20260507-3250",
+            "KE-WH-20260429-6404",
+            "KE-WH-20260501-2386",
+            "KE-WH-20260428-4046",
+            "KE-WH-20260506-3027",
+            "KE-WH-20260429-0509",
+            "KE-WH-20260428-4415",
+            "KE-WH-20260505-8769"
+          ]
+        },
+        {
+          "sku": "5402054684",
+          "total_quantity": 13,
+          "order_ids": [
+            "KE-WH-20260430-8937",
+            "KE-WH-20260503-1774",
+            "KE-WH-20260429-9035"
+          ]
+        },
+        {
+          "sku": "4509193538",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260507-1390"
+          ]
+        },
+        {
+          "sku": "6150042045",
+          "total_quantity": 12,
+          "order_ids": [
+            "KE-WH-20260505-8885",
+            "KE-WH-20260507-3250",
+            "KE-WH-20260501-4841",
+            "KE-WH-20260502-7528",
+            "KE-WH-20260507-5410"
+          ]
+        },
+        {
+          "sku": "3663648895",
+          "total_quantity": 11,
+          "order_ids": [
+            "KE-WH-20260502-4112",
+            "KE-WH-20260428-1896"
+          ]
+        },
+        {
+          "sku": "7299825093",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260507-3358"
+          ]
+        },
+        {
+          "sku": "6470716181",
+          "total_quantity": 6,
+          "order_ids": [
+            "KE-WH-20260505-0419",
+            "KE-WH-20260506-0109"
+          ]
+        },
+        {
+          "sku": "1189069471",
+          "total_quantity": 29,
+          "order_ids": [
+            "KE-WH-20260429-5981",
+            "KE-WH-20260502-0811",
+            "KE-WH-20260501-3911",
+            "KE-WH-20260501-9028",
+            "KE-WH-20260507-5410",
+            "KE-WH-20260505-0419"
+          ]
+        },
+        {
+          "sku": "8277206606",
+          "total_quantity": 14,
+          "order_ids": [
+            "KE-WH-20260502-9164",
+            "KE-WH-20260430-2203",
+            "KE-WH-20260430-7673",
+            "KE-WH-20260503-1774"
+          ]
+        },
+        {
+          "sku": "5580105730",
+          "total_quantity": 4,
+          "order_ids": [
+            "KE-WH-20260502-8417"
+          ]
+        },
+        {
+          "sku": "4817185633",
+          "total_quantity": 2,
+          "order_ids": [
+            "KE-WH-20260505-6582"
+          ]
+        }
+      ],
+      "total_picks": 146,
+      "capacity_limit": 75
+    }
+  ],
+  "fulfillment_conflict_report": {
+    "inventory_conflicts": [
+      {
+        "sku": "4452461409",
+        "requested_shortfall_total": 11,
+        "affected_order_ids": [
+          "KE-WH-20260503-4652",
+          "KE-WH-20260503-1774",
+          "KE-WH-20260430-7673",
+          "KE-WH-20260506-4404",
+          "KE-WH-20260506-3027"
+        ],
+        "resolution": "Prioritized CRITICAL/HIGH and earliest-deadline orders; remaining shortfall should be backordered, substituted, or escalated to replenishment."
+      },
+      {
+        "sku": "4509193538",
+        "requested_shortfall_total": 4,
+        "affected_order_ids": [
+          "KE-WH-20260429-6324",
+          "KE-WH-20260503-9991"
+        ],
+        "resolution": "Prioritized CRITICAL/HIGH and earliest-deadline orders; remaining shortfall should be backordered, substituted, or escalated to replenishment."
+      },
+      {
+        "sku": "7136819118",
+        "requested_shortfall_total": 17,
+        "affected_order_ids": [
+          "KE-WH-20260429-0509",
+          "KE-WH-20260503-5920",
+          "KE-WH-20260506-0109"
+        ],
+        "resolution": "Prioritized CRITICAL/HIGH and earliest-deadline orders; remaining shortfall should be backordered, substituted, or escalated to replenishment."
+      },
+      {
+        "sku": "7299825093",
+        "requested_shortfall_total": 2,
+        "affected_order_ids": [
+          "KE-WH-20260507-3358"
+        ],
+        "resolution": "Prioritized CRITICAL/HIGH and earliest-deadline orders; remaining shortfall should be backordered, substituted, or escalated to replenishment."
+      },
+      {
+        "sku": "5580105730",
+        "requested_shortfall_total": 8,
+        "affected_order_ids": [
+          "KE-WH-20260428-9295",
+          "KE-WH-20260428-1976",
+          "KE-WH-20260428-4415"
+        ],
+        "resolution": "Prioritized CRITICAL/HIGH and earliest-deadline orders; remaining shortfall should be backordered, substituted, or escalated to replenishment."
+      }
+    ],
+    "sla_risks": [
+      {
+        "order_id": "KE-WH-20260506-3027",
+        "risk_reason": "STANDARD order with partial allocation and 52.2 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260429-6324",
+        "risk_reason": "STANDARD order with partial allocation and 52.8 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260430-7673",
+        "risk_reason": "STANDARD order with partial allocation and 53.5 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260428-1976",
+        "risk_reason": "STANDARD order with partial allocation and 63.2 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260429-0509",
+        "risk_reason": "STANDARD order with partial allocation and 68.2 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260503-5920",
+        "risk_reason": "STANDARD order with partial allocation and 70.5 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260428-4415",
+        "risk_reason": "STANDARD order with partial allocation and 71.5 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260428-9295",
+        "risk_reason": "ECONOMY order with partial allocation and 72.2 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260503-4652",
+        "risk_reason": "ECONOMY order with partial allocation and 76.5 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260503-1774",
+        "risk_reason": "ECONOMY order with partial allocation and 78.0 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260507-3358",
+        "risk_reason": "ECONOMY order with partial allocation and 84.8 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260506-0109",
+        "risk_reason": "ECONOMY order with partial allocation and 88.2 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260503-9991",
+        "risk_reason": "ECONOMY order with partial allocation and 104.8 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      },
+      {
+        "order_id": "KE-WH-20260506-4404",
+        "risk_reason": "ECONOMY order with partial allocation and 118.5 hours until deadline",
+        "recommended_action": "expedite picking or contact customer if partial/unfulfillable"
+      }
+    ],
+    "partial_fulfillments": [
+      "KE-WH-20260506-3027",
+      "KE-WH-20260429-6324",
+      "KE-WH-20260430-7673",
+      "KE-WH-20260428-1976",
+      "KE-WH-20260429-0509",
+      "KE-WH-20260503-5920",
+      "KE-WH-20260428-4415",
+      "KE-WH-20260428-9295",
+      "KE-WH-20260503-4652",
+      "KE-WH-20260503-1774",
+      "KE-WH-20260507-3358",
+      "KE-WH-20260506-0109",
+      "KE-WH-20260503-9991",
+      "KE-WH-20260506-4404"
+    ],
+    "picking_wave_summary": "Plan prioritizes critical/high orders, prevents overselling, restricts cold-chain SKUs to D-COLD-CHAIN or H-CROSS-DOCK, and aggregates picks by zone.",
+    "summary": "Analyzed 86 orders across 10 zones. 72 fully fulfilled, 14 partial, 0 unfulfillable. 5 SKUs had shortfalls."
+  }
+}

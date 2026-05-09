@@ -1,0 +1,2563 @@
+[
+  {
+    "order_id": "KE-WH-20260429-0509",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Kakamega",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-04T22:41:00",
+    "deadline": "2026-05-10T04:45:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 7,
+        "handling": "restricted"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "4720654168",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "invoice attached; include with shipment"
+  },
+  {
+    "order_id": "KE-WH-20260502-4112",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Nakuru",
+    "urgency": "CRITICAL",
+    "received_at": "2026-05-06T19:32:00",
+    "deadline": "2026-05-08T04:30:00",
+    "items": [
+      {
+        "sku": "3663648895",
+        "quantity": 8,
+        "handling": "fragile"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "2220036525",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "6470716181",
+        "quantity": 1,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260501-2386",
+    "customer": "Kitengela Auto",
+    "destination_county": "Garissa",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T10:34:00",
+    "deadline": "2026-05-09T06:45:00",
+    "items": [
+      {
+        "sku": "5071340546",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260429-9035",
+    "customer": "Eldoret Hardware",
+    "destination_county": "Kakamega",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-05T01:22:00",
+    "deadline": "2026-05-11T08:45:00",
+    "items": [
+      {
+        "sku": "8392478320",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "1993720156",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "partial delivery acceptable; notify buyer on shortfall"
+  },
+  {
+    "order_id": "KE-WH-20260429-9774",
+    "customer": "Kisumu Schools",
+    "destination_county": "Kakamega",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-28T08:48:00",
+    "deadline": "2026-05-11T11:15:00",
+    "items": [
+      {
+        "sku": "2220036525",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8361756821",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8074279928",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "split shipment acceptable"
+  },
+  {
+    "order_id": "KE-WH-20260504-0620",
+    "customer": "Kericho Tea Mart",
+    "destination_county": "Nakuru",
+    "urgency": "CRITICAL",
+    "received_at": "2026-04-29T14:35:00",
+    "deadline": "2026-05-07T22:00:00",
+    "items": [
+      {
+        "sku": "1050907299",
+        "quantity": 2,
+        "handling": "fragile"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 5,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 4,
+        "handling": "standard"
+      }
+    ],
+    "notes": "new delivery address; confirm with buyer"
+  },
+  {
+    "order_id": "KE-WH-20260428-1635",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Garissa",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-29T03:54:00",
+    "deadline": "2026-05-10T10:45:00",
+    "items": [
+      {
+        "sku": "3824027894",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 13,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "5071340546",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer requested no substitutions"
+  },
+  {
+    "order_id": "KE-WH-20260501-3911",
+    "customer": "Naivasha Events",
+    "destination_county": "Nakuru",
+    "urgency": "HIGH",
+    "received_at": "2026-05-06T15:16:00",
+    "deadline": "2026-05-08T08:00:00",
+    "items": [
+      {
+        "sku": "3846495881",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 2,
+        "handling": "fragile"
+      },
+      {
+        "sku": "1189069471",
+        "quantity": 2,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "hazmat documentation attached to order docket"
+  },
+  {
+    "order_id": "KE-WH-20260506-9963",
+    "customer": "Thika Grocers",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T01:24:00",
+    "deadline": "2026-05-09T15:30:00",
+    "items": [
+      {
+        "sku": "9670639225",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5071340546",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "1050907299",
+        "quantity": 3,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "cold items must remain below 4C throughout transit"
+  },
+  {
+    "order_id": "KE-WH-20260428-9295",
+    "customer": "Kakamega General",
+    "destination_county": "Mombasa",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-04T20:54:00",
+    "deadline": "2026-05-10T08:45:00",
+    "items": [
+      {
+        "sku": "5580105730",
+        "quantity": 5,
+        "handling": "restricted"
+      },
+      {
+        "sku": "5795701746",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "2220036525",
+        "quantity": 13,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260501-9028",
+    "customer": "Ruiru Pharmacy",
+    "destination_county": "Meru",
+    "urgency": "HIGH",
+    "received_at": "2026-04-28T16:29:00",
+    "deadline": "2026-05-08T12:30:00",
+    "items": [
+      {
+        "sku": "3663648895",
+        "quantity": 3,
+        "handling": "fragile"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "1189069471",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 8,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "invoice attached; include with shipment"
+  },
+  {
+    "order_id": "KE-WH-20260504-3711",
+    "customer": "Kitengela Auto",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-02T17:32:00",
+    "deadline": "2026-05-09T21:15:00",
+    "items": [
+      {
+        "sku": "8361756821",
+        "quantity": 8,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "1993720156",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "4720654168",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "7576254937",
+        "quantity": 3,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "weekend delivery only"
+  },
+  {
+    "order_id": "KE-WH-20260505-9754",
+    "customer": "Nanyuki Outfitters",
+    "destination_county": "Nakuru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-05T07:40:00",
+    "deadline": "2026-05-09T10:45:00",
+    "items": [
+      {
+        "sku": "5795701746",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "1820004638",
+        "quantity": 13,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260502-0206",
+    "customer": "Embu Cooperative",
+    "destination_county": "Kiambu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-04T22:56:00",
+    "deadline": "2026-05-09T06:30:00",
+    "items": [
+      {
+        "sku": "4452461409",
+        "quantity": 8,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "4718794570",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "2220036525",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260430-7024",
+    "customer": "Meru Traders",
+    "destination_county": "Kiambu",
+    "urgency": "CRITICAL",
+    "received_at": "2026-04-30T01:08:00",
+    "deadline": "2026-05-07T21:15:00",
+    "items": [
+      {
+        "sku": "4509193538",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "3814707725",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5520809954",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "8074279928",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260503-4652",
+    "customer": "Kakamega General",
+    "destination_county": "Kiambu",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-03T11:11:00",
+    "deadline": "2026-05-10T13:00:00",
+    "items": [
+      {
+        "sku": "9974190470",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "7240709792",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer requested no substitutions"
+  },
+  {
+    "order_id": "KE-WH-20260430-3627",
+    "customer": "Kericho Tea Mart",
+    "destination_county": "Garissa",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-29T19:07:00",
+    "deadline": "2026-05-09T02:15:00",
+    "items": [
+      {
+        "sku": "7620091070",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "1020261671",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "5180748036",
+        "quantity": 2,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "driver must present ID at gate"
+  },
+  {
+    "order_id": "KE-WH-20260503-1774",
+    "customer": "Meru Traders",
+    "destination_county": "Nairobi",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-28T18:11:00",
+    "deadline": "2026-05-10T14:30:00",
+    "items": [
+      {
+        "sku": "5402054684",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 3,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "urgent: hospital restock"
+  },
+  {
+    "order_id": "KE-WH-20260429-6324",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T23:47:00",
+    "deadline": "2026-05-09T13:15:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 2,
+        "handling": "restricted"
+      },
+      {
+        "sku": "4720654168",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5607883214",
+        "quantity": 4,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "4509193538",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "5239644416",
+        "quantity": 13,
+        "handling": "standard"
+      }
+    ],
+    "notes": "temperature log device placed inside outer carton"
+  },
+  {
+    "order_id": "KE-WH-20260429-5981",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Machakos",
+    "urgency": "CRITICAL",
+    "received_at": "2026-05-02T16:12:00",
+    "deadline": "2026-05-07T19:15:00",
+    "items": [
+      {
+        "sku": "1189069471",
+        "quantity": 13,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "6470716181",
+        "quantity": 13,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 5,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 8,
+        "handling": "standard"
+      }
+    ],
+    "notes": "NGO tax-exempt consignment - include exemption cert"
+  },
+  {
+    "order_id": "KE-WH-20260503-9991",
+    "customer": "Kitengela Auto",
+    "destination_county": "Uasin Gishu",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-28T17:37:00",
+    "deadline": "2026-05-11T17:15:00",
+    "items": [
+      {
+        "sku": "6389473430",
+        "quantity": 4,
+        "handling": "fragile"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "5071340546",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "4509193538",
+        "quantity": 3,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "3846495881",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "fragile items on top of pallet"
+  },
+  {
+    "order_id": "KE-WH-20260502-0811",
+    "customer": "Isiolo Relief Hub",
+    "destination_county": "Kisumu",
+    "urgency": "HIGH",
+    "received_at": "2026-05-02T14:13:00",
+    "deadline": "2026-05-08T05:15:00",
+    "items": [
+      {
+        "sku": "6389473430",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "1050907299",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "1189069471",
+        "quantity": 1,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "7240709792",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "9037027195",
+        "quantity": 8,
+        "handling": "standard"
+      }
+    ],
+    "notes": "recurring weekly order - priority lane"
+  },
+  {
+    "order_id": "KE-WH-20260505-8885",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Kiambu",
+    "urgency": "HIGH",
+    "received_at": "2026-04-30T19:11:00",
+    "deadline": "2026-05-08T16:45:00",
+    "items": [
+      {
+        "sku": "8418956943",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "7576254937",
+        "quantity": 2,
+        "handling": "fragile"
+      },
+      {
+        "sku": "6150042045",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "5239644416",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "8074279928",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "7136819118",
+        "quantity": 1,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "new delivery address; confirm with buyer"
+  },
+  {
+    "order_id": "KE-WH-20260429-6301",
+    "customer": "Naivasha Events",
+    "destination_county": "Nairobi",
+    "urgency": "HIGH",
+    "received_at": "2026-05-06T12:39:00",
+    "deadline": "2026-05-08T05:30:00",
+    "items": [
+      {
+        "sku": "9670639225",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5580105730",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "1020261671",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "temperature log device placed inside outer carton"
+  },
+  {
+    "order_id": "KE-WH-20260429-9144",
+    "customer": "Kisumu Schools",
+    "destination_county": "Kiambu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T06:40:00",
+    "deadline": "2026-05-10T06:30:00",
+    "items": [
+      {
+        "sku": "3846495881",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "8361756821",
+        "quantity": 1,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "5686639863",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "address label updated - see attached PO amendment"
+  },
+  {
+    "order_id": "KE-WH-20260502-6025",
+    "customer": "Meru Traders",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-06T08:15:00",
+    "deadline": "2026-05-09T07:00:00",
+    "items": [
+      {
+        "sku": "1020261671",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "7240709792",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4718794570",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "NGO tax-exempt consignment - include exemption cert"
+  },
+  {
+    "order_id": "KE-WH-20260507-3250",
+    "customer": "Kakamega General",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-29T11:56:00",
+    "deadline": "2026-05-09T04:15:00",
+    "items": [
+      {
+        "sku": "6470716181",
+        "quantity": 3,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "6150042045",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer requested no substitutions"
+  },
+  {
+    "order_id": "KE-WH-20260429-0850",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Garissa",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-02T13:00:00",
+    "deadline": "2026-05-08T23:30:00",
+    "items": [
+      {
+        "sku": "4509193538",
+        "quantity": 3,
+        "handling": "restricted"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 3,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 2,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "temperature log device placed inside outer carton"
+  },
+  {
+    "order_id": "KE-WH-20260501-4841",
+    "customer": "Garissa Retail",
+    "destination_county": "Mombasa",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-05T01:04:00",
+    "deadline": "2026-05-09T10:15:00",
+    "items": [
+      {
+        "sku": "5580105730",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "6150042045",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "order_id": "KE-WH-20260429-3914",
+    "customer": "Naivasha Events",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T04:21:00",
+    "deadline": "2026-05-09T09:15:00",
+    "items": [
+      {
+        "sku": "1729477642",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "5686639863",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 3,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260429-6327",
+    "customer": "Embu Cooperative",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-05T18:46:00",
+    "deadline": "2026-05-09T08:00:00",
+    "items": [
+      {
+        "sku": "3814707725",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "5520809954",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "4547771746",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "NGO tax-exempt consignment - include exemption cert"
+  },
+  {
+    "order_id": "KE-WH-20260502-7528",
+    "customer": "Meru Traders",
+    "destination_county": "Nairobi",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-07T08:18:00",
+    "deadline": "2026-05-09T13:30:00",
+    "items": [
+      {
+        "sku": "8764687742",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "3230150172",
+        "quantity": 4,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "6150042045",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "driver must present ID at gate"
+  },
+  {
+    "order_id": "KE-WH-20260503-2764",
+    "customer": "Ruiru Pharmacy",
+    "destination_county": "Nakuru",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T03:01:00",
+    "deadline": "2026-05-09T20:15:00",
+    "items": [
+      {
+        "sku": "7620091070",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "6389473430",
+        "quantity": 3,
+        "handling": "fragile"
+      },
+      {
+        "sku": "7576254937",
+        "quantity": 2,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260503-5920",
+    "customer": "Kericho Tea Mart",
+    "destination_county": "Kisumu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T02:57:00",
+    "deadline": "2026-05-10T07:00:00",
+    "items": [
+      {
+        "sku": "3846495881",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "7136819118",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "9037027195",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "5607883214",
+        "quantity": 3,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "4817185633",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "recurring weekly order - priority lane"
+  },
+  {
+    "order_id": "KE-WH-20260501-4474",
+    "customer": "Coastal Fresh",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T05:19:00",
+    "deadline": "2026-05-10T06:15:00",
+    "items": [
+      {
+        "sku": "4718794570",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "3814707725",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "1020261671",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "urgent: hospital restock"
+  },
+  {
+    "order_id": "KE-WH-20260429-2903",
+    "customer": "Machakos County Stores",
+    "destination_county": "Kisumu",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T09:34:00",
+    "deadline": "2026-05-09T06:15:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 4,
+        "handling": "fragile"
+      },
+      {
+        "sku": "3663648895",
+        "quantity": 2,
+        "handling": "fragile"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260506-4110",
+    "customer": "Karen Foods",
+    "destination_county": "Kakamega",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T06:05:00",
+    "deadline": "2026-05-08T23:15:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 3,
+        "handling": "restricted"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "weekend delivery only"
+  },
+  {
+    "order_id": "KE-WH-20260430-7673",
+    "customer": "Kisumu Schools",
+    "destination_county": "Nakuru",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-28T13:13:00",
+    "deadline": "2026-05-09T14:00:00",
+    "items": [
+      {
+        "sku": "8277206606",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 3,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "split shipment acceptable"
+  },
+  {
+    "order_id": "KE-WH-20260504-4522",
+    "customer": "Karen Foods",
+    "destination_county": "Mombasa",
+    "urgency": "HIGH",
+    "received_at": "2026-04-30T10:14:00",
+    "deadline": "2026-05-08T00:30:00",
+    "items": [
+      {
+        "sku": "1650080836",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8418956943",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "restricted item: verify handler license on record"
+  },
+  {
+    "order_id": "KE-WH-20260506-3698",
+    "customer": "Ruiru Pharmacy",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-07T04:32:00",
+    "deadline": "2026-05-09T16:15:00",
+    "items": [
+      {
+        "sku": "4547771746",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "1820004638",
+        "quantity": 1,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "weekend delivery only"
+  },
+  {
+    "order_id": "KE-WH-20260503-1016",
+    "customer": "Embu Cooperative",
+    "destination_county": "Kakamega",
+    "urgency": "HIGH",
+    "received_at": "2026-05-02T06:45:00",
+    "deadline": "2026-05-08T05:30:00",
+    "items": [
+      {
+        "sku": "5607883214",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "9037027195",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 4,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "1050907299",
+        "quantity": 1,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "invoice attached; include with shipment"
+  },
+  {
+    "order_id": "KE-WH-20260501-0625",
+    "customer": "Kakamega General",
+    "destination_county": "Uasin Gishu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T05:55:00",
+    "deadline": "2026-05-09T17:00:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "split shipment acceptable"
+  },
+  {
+    "order_id": "KE-WH-20260503-6672",
+    "customer": "Ruiru Pharmacy",
+    "destination_county": "Nyeri",
+    "urgency": "CRITICAL",
+    "received_at": "2026-05-06T09:07:00",
+    "deadline": "2026-05-07T23:45:00",
+    "items": [
+      {
+        "sku": "7576254937",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "8074279928",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "restricted item: verify handler license on record"
+  },
+  {
+    "order_id": "KE-WH-20260502-1184",
+    "customer": "Karen Foods",
+    "destination_county": "Kisumu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-07T04:06:00",
+    "deadline": "2026-05-10T02:00:00",
+    "items": [
+      {
+        "sku": "8277206606",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "3230150172",
+        "quantity": 5,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 4,
+        "handling": "standard"
+      }
+    ],
+    "notes": "driver must present ID at gate"
+  },
+  {
+    "order_id": "KE-WH-20260501-9392",
+    "customer": "Kakamega General",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T06:17:00",
+    "deadline": "2026-05-09T17:00:00",
+    "items": [
+      {
+        "sku": "2148949298",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "5520809954",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "7299825093",
+        "quantity": 1,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8418956943",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5071340546",
+        "quantity": 13,
+        "handling": "standard"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260503-3583",
+    "customer": "Kisumu Schools",
+    "destination_county": "Kiambu",
+    "urgency": "HIGH",
+    "received_at": "2026-05-01T11:42:00",
+    "deadline": "2026-05-08T06:30:00",
+    "items": [
+      {
+        "sku": "7136819118",
+        "quantity": 3,
+        "handling": "restricted"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "3081364312",
+        "quantity": 13,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "address label updated - see attached PO amendment"
+  },
+  {
+    "order_id": "KE-WH-20260505-6582",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Uasin Gishu",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T04:22:00",
+    "deadline": "2026-05-08T22:30:00",
+    "items": [
+      {
+        "sku": "5520809954",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "1993720156",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "4817185633",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "6389473430",
+        "quantity": 13,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "customer requested no substitutions"
+  },
+  {
+    "order_id": "KE-WH-20260505-2440",
+    "customer": "Thika Grocers",
+    "destination_county": "Kiambu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-06T18:15:00",
+    "deadline": "2026-05-09T02:45:00",
+    "items": [
+      {
+        "sku": "4720654168",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "8308934206",
+        "quantity": 8,
+        "handling": "standard"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "order_id": "KE-WH-20260502-2387",
+    "customer": "Machakos County Stores",
+    "destination_county": "Nairobi",
+    "urgency": "HIGH",
+    "received_at": "2026-04-29T13:29:00",
+    "deadline": "2026-05-08T14:15:00",
+    "items": [
+      {
+        "sku": "8277206606",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5520809954",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "NGO tax-exempt consignment - include exemption cert"
+  },
+  {
+    "order_id": "KE-WH-20260501-9297",
+    "customer": "Nanyuki Outfitters",
+    "destination_county": "Kisumu",
+    "urgency": "CRITICAL",
+    "received_at": "2026-05-02T21:25:00",
+    "deadline": "2026-05-08T03:15:00",
+    "items": [
+      {
+        "sku": "5239644416",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4414273239",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "do not stack - contains glass equipment"
+  },
+  {
+    "order_id": "KE-WH-20260506-4404",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Kisumu",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-28T17:16:00",
+    "deadline": "2026-05-12T07:00:00",
+    "items": [
+      {
+        "sku": "4720654168",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "7240709792",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "3450538744",
+        "quantity": 8,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260507-7119",
+    "customer": "Thika Grocers",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T23:05:00",
+    "deadline": "2026-05-09T01:30:00",
+    "items": [
+      {
+        "sku": "4720654168",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 3,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "double-check expiry dates on medical SKUs"
+  },
+  {
+    "order_id": "KE-WH-20260507-6643",
+    "customer": "Meru Traders",
+    "destination_county": "Garissa",
+    "urgency": "HIGH",
+    "received_at": "2026-04-30T22:47:00",
+    "deadline": "2026-05-08T10:30:00",
+    "items": [
+      {
+        "sku": "4720654168",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "1650080836",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8361756821",
+        "quantity": 3,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "urgent: hospital restock"
+  },
+  {
+    "order_id": "KE-WH-20260503-3693",
+    "customer": "Kilimani Mart",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T16:07:00",
+    "deadline": "2026-05-09T09:00:00",
+    "items": [
+      {
+        "sku": "3663648895",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "order_id": "KE-WH-20260430-8448",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Meru",
+    "urgency": "CRITICAL",
+    "received_at": "2026-05-03T20:04:00",
+    "deadline": "2026-05-08T00:30:00",
+    "items": [
+      {
+        "sku": "7299825093",
+        "quantity": 5,
+        "handling": "restricted"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4817185633",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "requires signed handoff"
+  },
+  {
+    "order_id": "KE-WH-20260505-1589",
+    "customer": "Machakos County Stores",
+    "destination_county": "Nyeri",
+    "urgency": "HIGH",
+    "received_at": "2026-05-02T11:50:00",
+    "deadline": "2026-05-08T20:15:00",
+    "items": [
+      {
+        "sku": "1729477642",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "4547771746",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260428-1896",
+    "customer": "Coastal Fresh",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T22:53:00",
+    "deadline": "2026-05-09T10:30:00",
+    "items": [
+      {
+        "sku": "4720654168",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "2148949298",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "3663648895",
+        "quantity": 3,
+        "handling": "fragile"
+      },
+      {
+        "sku": "1993720156",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "6470716181",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8418956943",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "temperature log device placed inside outer carton"
+  },
+  {
+    "order_id": "KE-WH-20260430-2721",
+    "customer": "Coastal Fresh",
+    "destination_county": "Mombasa",
+    "urgency": "HIGH",
+    "received_at": "2026-05-01T00:17:00",
+    "deadline": "2026-05-08T11:00:00",
+    "items": [
+      {
+        "sku": "4547771746",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "1820004638",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8418956943",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 2,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260504-9871",
+    "customer": "Kilimani Mart",
+    "destination_county": "Nyeri",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-30T22:55:00",
+    "deadline": "2026-05-10T22:15:00",
+    "items": [
+      {
+        "sku": "2438360099",
+        "quantity": 13,
+        "handling": "fragile"
+      },
+      {
+        "sku": "7576254937",
+        "quantity": 8,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "double-check expiry dates on medical SKUs"
+  },
+  {
+    "order_id": "KE-WH-20260429-6404",
+    "customer": "Embu Cooperative",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-28T12:53:00",
+    "deadline": "2026-05-09T06:15:00",
+    "items": [
+      {
+        "sku": "1729477642",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3814707725",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260504-9863",
+    "customer": "Karen Foods",
+    "destination_county": "Kakamega",
+    "urgency": "HIGH",
+    "received_at": "2026-05-06T06:14:00",
+    "deadline": "2026-05-08T18:00:00",
+    "items": [
+      {
+        "sku": "8391508644",
+        "quantity": 8,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 2,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "urgent: hospital restock"
+  },
+  {
+    "order_id": "KE-WH-20260505-8769",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Kisumu",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-30T14:15:00",
+    "deadline": "2026-05-11T11:15:00",
+    "items": [
+      {
+        "sku": "4784255264",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "5180748036",
+        "quantity": 5,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8346316198",
+        "quantity": 2,
+        "handling": "standard"
+      }
+    ],
+    "notes": "partial delivery acceptable; notify buyer on shortfall"
+  },
+  {
+    "order_id": "KE-WH-20260502-9164",
+    "customer": "Kericho Tea Mart",
+    "destination_county": "Nakuru",
+    "urgency": "HIGH",
+    "received_at": "2026-05-03T02:03:00",
+    "deadline": "2026-05-08T08:30:00",
+    "items": [
+      {
+        "sku": "6470716181",
+        "quantity": 13,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "5607883214",
+        "quantity": 2,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "recurring weekly order - priority lane"
+  },
+  {
+    "order_id": "KE-WH-20260428-1976",
+    "customer": "Nakuru Medics",
+    "destination_county": "Mombasa",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-02T05:36:00",
+    "deadline": "2026-05-09T23:45:00",
+    "items": [
+      {
+        "sku": "5580105730",
+        "quantity": 2,
+        "handling": "restricted"
+      },
+      {
+        "sku": "2148949298",
+        "quantity": 8,
+        "handling": "fragile"
+      },
+      {
+        "sku": "5795701746",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pallet wrap required for transport"
+  },
+  {
+    "order_id": "KE-WH-20260506-4471",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Nakuru",
+    "urgency": "HIGH",
+    "received_at": "2026-05-01T15:08:00",
+    "deadline": "2026-05-08T07:00:00",
+    "items": [
+      {
+        "sku": "3814707725",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 13,
+        "handling": "fragile"
+      },
+      {
+        "sku": "4509193538",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "2148949298",
+        "quantity": 3,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "hazmat documentation attached to order docket"
+  },
+  {
+    "order_id": "KE-WH-20260503-1927",
+    "customer": "Kisumu Schools",
+    "destination_county": "Kiambu",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-29T02:13:00",
+    "deadline": "2026-05-10T08:30:00",
+    "items": [
+      {
+        "sku": "8346316198",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3814707725",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 8,
+        "handling": "fragile"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260502-7223",
+    "customer": "Mombasa Textiles",
+    "destination_county": "Machakos",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-01T15:18:00",
+    "deadline": "2026-05-11T07:00:00",
+    "items": [
+      {
+        "sku": "8391508644",
+        "quantity": 3,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "8308934206",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "driver must present ID at gate"
+  },
+  {
+    "order_id": "KE-WH-20260430-7533",
+    "customer": "Nanyuki Outfitters",
+    "destination_county": "Kisumu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-02T12:16:00",
+    "deadline": "2026-05-08T23:00:00",
+    "items": [
+      {
+        "sku": "3230150172",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "5239644416",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "double-check expiry dates on medical SKUs"
+  },
+  {
+    "order_id": "KE-WH-20260428-4415",
+    "customer": "Karen Foods",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-06T00:50:00",
+    "deadline": "2026-05-10T08:00:00",
+    "items": [
+      {
+        "sku": "1729477642",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "4784255264",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5580105730",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "urgent: hospital restock"
+  },
+  {
+    "order_id": "KE-WH-20260506-3027",
+    "customer": "Thika Grocers",
+    "destination_county": "Kakamega",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-04T10:22:00",
+    "deadline": "2026-05-09T12:45:00",
+    "items": [
+      {
+        "sku": "4784255264",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "5795701746",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "6389473430",
+        "quantity": 13,
+        "handling": "fragile"
+      },
+      {
+        "sku": "4414273239",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "4452461409",
+        "quantity": 3,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "9037027195",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "consolidate with order from same buyer if possible"
+  },
+  {
+    "order_id": "KE-WH-20260506-1843",
+    "customer": "Nyeri Clinics",
+    "destination_county": "Kiambu",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T02:24:00",
+    "deadline": "2026-05-09T22:00:00",
+    "items": [
+      {
+        "sku": "3824027894",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 4,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260502-8417",
+    "customer": "Meru Traders",
+    "destination_county": "Meru",
+    "urgency": "HIGH",
+    "received_at": "2026-05-06T11:55:00",
+    "deadline": "2026-05-08T13:45:00",
+    "items": [
+      {
+        "sku": "3846495881",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "5580105730",
+        "quantity": 13,
+        "handling": "standard"
+      }
+    ],
+    "notes": "restricted item: verify handler license on record"
+  },
+  {
+    "order_id": "KE-WH-20260507-3358",
+    "customer": "Karen Foods",
+    "destination_county": "Machakos",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-04T18:11:00",
+    "deadline": "2026-05-10T21:15:00",
+    "items": [
+      {
+        "sku": "7299825093",
+        "quantity": 5,
+        "handling": "restricted"
+      },
+      {
+        "sku": "5795701746",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "3846495881",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "2220036525",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3450538744",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "address label updated - see attached PO amendment"
+  },
+  {
+    "order_id": "KE-WH-20260430-6226",
+    "customer": "Embu Cooperative",
+    "destination_county": "Machakos",
+    "urgency": "HIGH",
+    "received_at": "2026-05-02T06:27:00",
+    "deadline": "2026-05-08T12:00:00",
+    "items": [
+      {
+        "sku": "7240709792",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "4547771746",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "1650080836",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "1729477642",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260430-8937",
+    "customer": "Kakamega General",
+    "destination_county": "Kakamega",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-28T14:02:00",
+    "deadline": "2026-05-09T20:00:00",
+    "items": [
+      {
+        "sku": "1993720156",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "3450538744",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3230150172",
+        "quantity": 3,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "split shipment acceptable"
+  },
+  {
+    "order_id": "KE-WH-20260506-0109",
+    "customer": "Naivasha Events",
+    "destination_county": "Kiambu",
+    "urgency": "ECONOMY",
+    "received_at": "2026-04-29T15:35:00",
+    "deadline": "2026-05-11T00:45:00",
+    "items": [
+      {
+        "sku": "6470716181",
+        "quantity": 4,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "7576254937",
+        "quantity": 4,
+        "handling": "fragile"
+      },
+      {
+        "sku": "7136819118",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 1,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "temperature log device placed inside outer carton"
+  },
+  {
+    "order_id": "KE-WH-20260507-5410",
+    "customer": "Eldoret Hardware",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-01T10:05:00",
+    "deadline": "2026-05-09T15:45:00",
+    "items": [
+      {
+        "sku": "6150042045",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 13,
+        "handling": "standard"
+      },
+      {
+        "sku": "5071340546",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "1189069471",
+        "quantity": 8,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "5500070010",
+        "quantity": 4,
+        "handling": "standard"
+      },
+      {
+        "sku": "8074279928",
+        "quantity": 5,
+        "handling": "standard"
+      }
+    ],
+    "notes": "recurring weekly order - priority lane"
+  },
+  {
+    "order_id": "KE-WH-20260505-0419",
+    "customer": "Karen Foods",
+    "destination_county": "Nyeri",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-30T10:00:00",
+    "deadline": "2026-05-09T20:15:00",
+    "items": [
+      {
+        "sku": "2148949298",
+        "quantity": 5,
+        "handling": "fragile"
+      },
+      {
+        "sku": "1189069471",
+        "quantity": 3,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "6470716181",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "7620091070",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5537995617",
+        "quantity": 2,
+        "handling": "cold_chain"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260429-6047",
+    "customer": "Nakuru Medics",
+    "destination_county": "Garissa",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-05T07:06:00",
+    "deadline": "2026-05-10T16:15:00",
+    "items": [
+      {
+        "sku": "4718794570",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "1050907299",
+        "quantity": 2,
+        "handling": "fragile"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "6470716181",
+        "quantity": 2,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "contact logistics coordinator before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260502-4023",
+    "customer": "Ruiru Pharmacy",
+    "destination_county": "Kakamega",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-01T11:19:00",
+    "deadline": "2026-05-11T13:00:00",
+    "items": [
+      {
+        "sku": "6389473430",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "9670639225",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "3450538744",
+        "quantity": 1,
+        "handling": "standard"
+      },
+      {
+        "sku": "8764687742",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "driver must present ID at gate"
+  },
+  {
+    "order_id": "KE-WH-20260428-4046",
+    "customer": "Thika Grocers",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-04-28T17:08:00",
+    "deadline": "2026-05-09T10:15:00",
+    "items": [
+      {
+        "sku": "4784255264",
+        "quantity": 8,
+        "handling": "standard"
+      },
+      {
+        "sku": "3081364312",
+        "quantity": 4,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 13,
+        "handling": "standard"
+      }
+    ],
+    "notes": "fragile items on top of pallet"
+  },
+  {
+    "order_id": "KE-WH-20260507-1390",
+    "customer": "Nakuru Medics",
+    "destination_county": "Mombasa",
+    "urgency": "HIGH",
+    "received_at": "2026-04-29T13:34:00",
+    "deadline": "2026-05-08T03:30:00",
+    "items": [
+      {
+        "sku": "4509193538",
+        "quantity": 5,
+        "handling": "restricted"
+      },
+      {
+        "sku": "8392478320",
+        "quantity": 13,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "8361756821",
+        "quantity": 5,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "do not stack - contains glass equipment"
+  },
+  {
+    "order_id": "KE-WH-20260429-8062",
+    "customer": "Kakamega General",
+    "destination_county": "Mombasa",
+    "urgency": "ECONOMY",
+    "received_at": "2026-05-05T11:45:00",
+    "deadline": "2026-05-11T05:45:00",
+    "items": [
+      {
+        "sku": "5795701746",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "9974190470",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "hazmat documentation attached to order docket"
+  },
+  {
+    "order_id": "KE-WH-20260429-8827",
+    "customer": "Isiolo Relief Hub",
+    "destination_county": "Machakos",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-03T12:34:00",
+    "deadline": "2026-05-09T18:30:00",
+    "items": [
+      {
+        "sku": "1820004638",
+        "quantity": 1,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "7136819118",
+        "quantity": 1,
+        "handling": "fragile"
+      },
+      {
+        "sku": "9037027195",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "5686639863",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "5180748036",
+        "quantity": 2,
+        "handling": "expiry_check"
+      },
+      {
+        "sku": "7299825093",
+        "quantity": 2,
+        "handling": "expiry_check"
+      }
+    ],
+    "notes": "customer may amend quantities up to 2h before dispatch"
+  },
+  {
+    "order_id": "KE-WH-20260430-2203",
+    "customer": "Naivasha Events",
+    "destination_county": "Meru",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-02T10:41:00",
+    "deadline": "2026-05-09T00:15:00",
+    "items": [
+      {
+        "sku": "5520809954",
+        "quantity": 5,
+        "handling": "standard"
+      },
+      {
+        "sku": "4414273239",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "8391508644",
+        "quantity": 2,
+        "handling": "cold_chain"
+      },
+      {
+        "sku": "1650080836",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "8277206606",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "3824027894",
+        "quantity": 1,
+        "handling": "standard"
+      }
+    ],
+    "notes": "pack with cold-gel insert if cold chain"
+  },
+  {
+    "order_id": "KE-WH-20260505-9107",
+    "customer": "Kakamega General",
+    "destination_county": "Nairobi",
+    "urgency": "STANDARD",
+    "received_at": "2026-05-07T02:12:00",
+    "deadline": "2026-05-09T04:30:00",
+    "items": [
+      {
+        "sku": "4414273239",
+        "quantity": 3,
+        "handling": "standard"
+      },
+      {
+        "sku": "1020261671",
+        "quantity": 2,
+        "handling": "standard"
+      },
+      {
+        "sku": "2438360099",
+        "quantity": 8,
+        "handling": "fragile"
+      },
+      {
+        "sku": "5402054684",
+        "quantity": 3,
+        "handling": "standard"
+      }
+    ],
+    "notes": "split shipment acceptable"
+  }
+]

@@ -1,0 +1,25 @@
+[task]
+name = "swarmbench/019dfd880f5d79918c67c1797809fd3d-SWARMBENCH-FANOUT-PLANNING-OPERATIONS-WAREHOUSE-FULFILLMENT"
+description = "Create a warehouse fulfillment plan from order, inventory, and constraint files, including per-order allocations, zone picking lists, and conflict/SLA risk reporting."
+
+[metadata]
+verifier_type = "llm-judge"
+domain = "planning-operations"
+coordination_pattern = "fan-out-synthesize"
+human_solving_hours_estimate = 7.0
+human_solving_hours_justification = "A warehouse operations analyst would need about 1.0h to read and normalize 86 orders, 1.5h to cross-check requested SKUs against zone-level inventory and handling restrictions, 2.0h to resolve scarce-inventory conflicts while prioritizing urgent and earlier-deadline orders, 1.0h to aggregate zone picking lists and capacity risks, and 1.5h to audit SLA risks and document conflict resolutions, for about 7.0h total."
+estimated_sub_agents = 6
+input_token_estimate = 18000
+reference_link = "https://logistics.worldbank.org/en/lpi"
+why_multi_agent = "The task requires checking 86 orders against multiple zone inventories, urgency levels, deadlines, handling restrictions, and no-overselling constraints. A single agent must hold all orders and SKU allocations simultaneously, which increases the risk of missed shortfalls, duplicate inventory allocation, and weak conflict reporting. Five batch-analysis sub-agents can inspect disjoint order ranges with full attention, and one synthesizer can merge findings into a global plan that resolves cross-order conflicts and builds zone-level picking lists."
+
+[agent]
+timeout_sec = 2700
+
+[verifier]
+timeout_sec = 1200
+
+[environment]
+cpus = 2
+memory_mb = 4096
+build_timeout_sec = 1200

@@ -1,0 +1,55 @@
+coordination_pattern: fan-out-synthesize
+
+sub_tasks:
+  - id: analyze-orders-001-018
+    description: >
+      Analyze orders 1-18 from /input_artifacts/fulfillment/orders_batch.json. For each order, extract 
+      order_id, customer, urgency, deadline, requested SKUs, and quantities. 
+      List ALL warehouse zones that contain each SKU and the quantities available from warehouse_inventory.json. 
+      Identify handling constraints. Return structured findings.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze-orders-019-036
+    description: >
+      Analyze orders 19-36. Extract order details, SKU requirements, and available inventory per SKU by zone. 
+      Identify handling constraints. Return structured findings.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze-orders-037-054
+    description: >
+      Analyze orders 37-54. Extract order details, SKU requirements, and available inventory per SKU by zone. 
+      Identify handling constraints. Return structured findings.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze-orders-055-072
+    description: >
+      Analyze orders 55-72. Extract order details, SKU requirements, and available inventory per SKU by zone. 
+      Identify handling constraints. Return structured findings.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: analyze-orders-073-086
+    description: >
+      Analyze orders 73-86. Extract order details, SKU requirements, and available inventory per SKU by zone. 
+      Identify handling constraints. Return structured findings.
+    depends_on: []
+    parallel_group: analyze
+
+  - id: synthesize-fulfillment-plan
+    description: >
+      Merge the batch findings from all five analysis sub-agents into a single globally
+      consistent fulfillment plan. The plan must cover all 86 orders, respect warehouse
+      inventory limits and cold-chain zone restrictions, give priority to higher-urgency
+      and earlier-deadline orders when inventory is scarce, and include complete zone
+      picking lists and a conflict report. Write the final JSON result to
+      /logs/agent/output.json in the schema described in the task instruction.
+    depends_on:
+      - analyze-orders-001-018
+      - analyze-orders-019-036
+      - analyze-orders-037-054
+      - analyze-orders-055-072
+      - analyze-orders-073-086
+    parallel_group: synthesize

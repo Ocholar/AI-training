@@ -1,0 +1,25 @@
+[task]
+name = "swarmbench/incident-response-coordination-planning-ops"
+description = "Coordinate response to 20 simultaneous critical incidents across different systems. Each incident contains extensive investigation logs (~110KB each) with hidden root causes and cross-incident dependencies embedded in technical context. Agents must deeply analyze the logs to extract root causes and hidden dependencies, then allocate engineers from a pool of 5, resolve resource conflicts, respect SLA deadlines and all dependencies, and produce an actionable incident response plan. Single agents struggle with context overload tracking 20 concurrent incidents totaling ~1.1M tokens. Multi-agent teams analyze incidents in parallel with full attention per incident."
+
+[metadata]
+verifier_type = "executable"
+domain = "planning-operations"
+coordination_pattern = "fan-out-synthesize"
+human_solving_hours_estimate = 45.0
+human_solving_hours_justification = "A human incident coordinator tackling 20 complex, high-context incidents must perform the following: (1) Initial reading and triage of 20 logs (15min each = 5h); (2) Deep extraction of root causes from noisy Slack/log threads (30min each = 10h); (3) Identifying and verifying hidden dependencies (15min each = 5h); (4) Building the complete dependency graph and identifying resource conflicts (5h); (5) Manually allocating 5 engineers across 20 incidents while resolving all temporal and dependency constraints (15h); (6) Generating the final analysis report and escalation plan (5h). Total: 5 + 10 + 5 + 5 + 15 + 5 = 45 hours."
+estimated_sub_agents = 21
+input_token_estimate = 1100000
+reference_link = "https://github.com/PagerDuty/incident-response-docs"
+why_multi_agent = "20 independent incidents, each with ~110KB of investigation context, require deep analysis before resource allocation can begin. A single agent must sequentially read, analyze, and hold all 20 incident contexts (approx 1.1M tokens total) in working memory while extracting root causes, identifying hidden dependencies, and building a complete picture of resource conflicts. This causes context degradation, missed root causes, and timeout. Twenty parallel analysis agents can each focus deeply on one incident log, extracting precise details with full attention. A synthesizer agent then integrates these results into the final coordination plan."
+
+[agent]
+timeout_sec = 1800
+
+[verifier]
+timeout_sec = 300
+
+[environment]
+cpus = 2
+memory_mb = 4096
+build_timeout_sec = 600

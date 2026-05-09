@@ -1,0 +1,51 @@
+{
+  "planning_cutoff": "2026-05-07T08:30:00",
+  "zones": [
+    "A-FAST-PICK",
+    "B-FAST-PICK",
+    "C-BULK",
+    "D-COLD-CHAIN",
+    "E-HAZMAT",
+    "F-OVERFLOW",
+    "G-RETURNS-QA",
+    "H-CROSS-DOCK",
+    "J-MEZZANINE",
+    "K-RESERVE"
+  ],
+  "max_picks_per_zone_per_wave": {
+    "A-FAST-PICK": 160,
+    "B-FAST-PICK": 150,
+    "C-BULK": 90,
+    "D-COLD-CHAIN": 55,
+    "E-HAZMAT": 35,
+    "F-OVERFLOW": 70,
+    "G-RETURNS-QA": 30,
+    "H-CROSS-DOCK": 80,
+    "J-MEZZANINE": 65,
+    "K-RESERVE": 75
+  },
+  "priority_order": [
+    "CRITICAL",
+    "HIGH",
+    "STANDARD",
+    "ECONOMY"
+  ],
+  "sla_hours_by_priority": {
+    "CRITICAL": 24,
+    "HIGH": 36,
+    "STANDARD": 72,
+    "ECONOMY": 120
+  },
+  "overselling_forbidden": true,
+  "cold_chain_allowed_zones": [
+    "D-COLD-CHAIN",
+    "H-CROSS-DOCK"
+  ],
+  "hazmat_review_zone": "E-HAZMAT",
+  "minimum_report_sections": [
+    "inventory_conflicts",
+    "sla_risks",
+    "partial_fulfillments",
+    "picking_wave_summary"
+  ]
+}
