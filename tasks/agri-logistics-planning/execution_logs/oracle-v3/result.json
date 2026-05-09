@@ -1,0 +1,37 @@
+{
+    "id": "088a9f6b-e661-43e7-974f-b12b2a65adb1",
+    "started_at": "2026-05-09T10:56:12.389950",
+    "updated_at": "2026-05-09T11:04:01.227379",
+    "finished_at": "2026-05-09T11:04:01.227379",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {},
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "agri-logistics-planning__Pdt2paj"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

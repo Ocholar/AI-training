@@ -1,0 +1,3 @@
+Searching for artifacts...
+/workspace/input_artifacts/agri_resource_snapshot.json
+Current directory: /workspace

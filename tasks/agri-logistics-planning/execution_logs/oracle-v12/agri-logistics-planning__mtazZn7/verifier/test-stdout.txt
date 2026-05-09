@@ -1,0 +1,1 @@
+{"reward": 0.616, "score": 0.616, "metrics": {"schema_compliance": 1.0, "constraint_identification": 1.0, "budget_check": 1.0, "capacity_check": 1.0, "non_negative_check": 1.0, "operational_checks": 1.0, "impact_score_accuracy": 1.0}, "details": {}, "calculated_impact": 0.04}

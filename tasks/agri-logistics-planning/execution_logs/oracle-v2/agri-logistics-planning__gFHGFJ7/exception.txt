@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 953, in run
+    await self._setup_environment()
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 315, in _setup_environment
+    await self._start_environment_with_retry()
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 327, in _start_environment_with_retry
+    await asyncio.wait_for(
+    ...<4 lines>...
+    )
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Administrator\harbor\src\harbor\environments\docker\docker.py", line 478, in start
+    await self._run_docker_compose_command(["build"])
+  File "C:\Users\Administrator\harbor\src\harbor\environments\docker\docker.py", line 382, in _run_docker_compose_command
+    raise RuntimeError(
+    ...<5 lines>...
+    )
+RuntimeError: Docker compose command failed for environment swarmbench/41ef28d49212445c9c55ba0647bb5dd0-agri-logistics-planning. Command: docker compose --project-name agri-logistics-planning__gfhgfj7 --project-directory C:\Users\Administrator\harbor\agri-logistics-planning\environment -f C:\Users\Administrator\harbor\src\harbor\environments\docker\docker-compose-base.yaml -f C:\Users\Administrator\harbor\src\harbor\environments\docker\docker-compose-build.yaml build. Return code: 1. Stdout:  Image agri-logistics-planning__gfhgfj7-main Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 635B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 30B 0.0s
+#2 transferring dockerfile: 634B 0.1s done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.11-slim": net/http: TLS handshake timeout
+------
+ > [internal] load metadata for docker.io/library/python:3.11-slim:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM python:3.11-slim
+
+   2 |     
+
+   3 |     # Install system dependencies
+
+--------------------
+
+failed to solve: python:3.11-slim: failed to resolve source metadata for docker.io/library/python:3.11-slim: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.11-slim": net/http: TLS handshake timeout
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/ti3ls98tdcmg6p99f33lcgyqi
+
+. Stderr: None. 

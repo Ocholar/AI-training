@@ -1,0 +1,394 @@
+{
+  "redistribution_plan": {
+    "total_estimated_cost": 265000,
+    "food_security_impact_score": 0.15,
+    "strategy_summary": "Redistributed resources from western clusters to high-gap central regions while satisfying security and local mandates."
+  },
+  "target_inventory_by_region": [
+    {
+      "region_id": "region_001",
+      "fertilizer_urea_final": 97,
+      "fertilizer_dap_final": 22,
+      "seeds_hybrid_final": 22,
+      "seeds_local_final": 94
+    },
+    {
+      "region_id": "region_002",
+      "fertilizer_urea_final": 39,
+      "fertilizer_dap_final": 73,
+      "seeds_hybrid_final": -178,
+      "seeds_local_final": 58
+    },
+    {
+      "region_id": "region_003",
+      "fertilizer_urea_final": 64,
+      "fertilizer_dap_final": 147,
+      "seeds_hybrid_final": 45,
+      "seeds_local_final": 39
+    },
+    {
+      "region_id": "region_004",
+      "fertilizer_urea_final": 40,
+      "fertilizer_dap_final": 22,
+      "seeds_hybrid_final": 100,
+      "seeds_local_final": 72
+    },
+    {
+      "region_id": "region_005",
+      "fertilizer_urea_final": 123,
+      "fertilizer_dap_final": 85,
+      "seeds_hybrid_final": 71,
+      "seeds_local_final": 13
+    },
+    {
+      "region_id": "region_006",
+      "fertilizer_urea_final": 101,
+      "fertilizer_dap_final": 33,
+      "seeds_hybrid_final": 52,
+      "seeds_local_final": 91
+    },
+    {
+      "region_id": "region_007",
+      "fertilizer_urea_final": 115,
+      "fertilizer_dap_final": 73,
+      "seeds_hybrid_final": 36,
+      "seeds_local_final": 18
+    },
+    {
+      "region_id": "region_008",
+      "fertilizer_urea_final": 121,
+      "fertilizer_dap_final": 111,
+      "seeds_hybrid_final": 14,
+      "seeds_local_final": 62
+    },
+    {
+      "region_id": "region_009",
+      "fertilizer_urea_final": 29,
+      "fertilizer_dap_final": 110,
+      "seeds_hybrid_final": 82,
+      "seeds_local_final": 50
+    },
+    {
+      "region_id": "region_010",
+      "fertilizer_urea_final": 130,
+      "fertilizer_dap_final": 103,
+      "seeds_hybrid_final": 81,
+      "seeds_local_final": 28
+    },
+    {
+      "region_id": "region_011",
+      "fertilizer_urea_final": 54,
+      "fertilizer_dap_final": 48,
+      "seeds_hybrid_final": 85,
+      "seeds_local_final": 72
+    },
+    {
+      "region_id": "region_012",
+      "fertilizer_urea_final": 144,
+      "fertilizer_dap_final": 136,
+      "seeds_hybrid_final": 10,
+      "seeds_local_final": 36
+    },
+    {
+      "region_id": "region_013",
+      "fertilizer_urea_final": 31,
+      "fertilizer_dap_final": 130,
+      "seeds_hybrid_final": 14,
+      "seeds_local_final": 19
+    },
+    {
+      "region_id": "region_014",
+      "fertilizer_urea_final": 125,
+      "fertilizer_dap_final": 109,
+      "seeds_hybrid_final": 85,
+      "seeds_local_final": 18
+    },
+    {
+      "region_id": "region_015",
+      "fertilizer_urea_final": 115,
+      "fertilizer_dap_final": 102,
+      "seeds_hybrid_final": 46,
+      "seeds_local_final": 47
+    },
+    {
+      "region_id": "region_016",
+      "fertilizer_urea_final": 36,
+      "fertilizer_dap_final": 146,
+      "seeds_hybrid_final": 50,
+      "seeds_local_final": 54
+    },
+    {
+      "region_id": "region_017",
+      "fertilizer_urea_final": 81,
+      "fertilizer_dap_final": 80,
+      "seeds_hybrid_final": 98,
+      "seeds_local_final": 75
+    },
+    {
+      "region_id": "region_018",
+      "fertilizer_urea_final": 150,
+      "fertilizer_dap_final": 25,
+      "seeds_hybrid_final": 40,
+      "seeds_local_final": 47
+    },
+    {
+      "region_id": "region_019",
+      "fertilizer_urea_final": 57,
+      "fertilizer_dap_final": 145,
+      "seeds_hybrid_final": 88,
+      "seeds_local_final": 99
+    },
+    {
+      "region_id": "region_020",
+      "fertilizer_urea_final": 114,
+      "fertilizer_dap_final": 100,
+      "seeds_hybrid_final": 87,
+      "seeds_local_final": 10
+    },
+    {
+      "region_id": "region_021",
+      "fertilizer_urea_final": 88,
+      "fertilizer_dap_final": 103,
+      "seeds_hybrid_final": 40,
+      "seeds_local_final": 10
+    },
+    {
+      "region_id": "region_022",
+      "fertilizer_urea_final": 33,
+      "fertilizer_dap_final": 149,
+      "seeds_hybrid_final": 233,
+      "seeds_local_final": 80
+    },
+    {
+      "region_id": "region_023",
+      "fertilizer_urea_final": 87,
+      "fertilizer_dap_final": 130,
+      "seeds_hybrid_final": 52,
+      "seeds_local_final": 31
+    },
+    {
+      "region_id": "region_024",
+      "fertilizer_urea_final": 133,
+      "fertilizer_dap_final": 44,
+      "seeds_hybrid_final": 52,
+      "seeds_local_final": 40
+    },
+    {
+      "region_id": "region_025",
+      "fertilizer_urea_final": 121,
+      "fertilizer_dap_final": 117,
+      "seeds_hybrid_final": 82,
+      "seeds_local_final": 50
+    },
+    {
+      "region_id": "region_026",
+      "fertilizer_urea_final": 58,
+      "fertilizer_dap_final": 32,
+      "seeds_hybrid_final": 86,
+      "seeds_local_final": 46
+    },
+    {
+      "region_id": "region_027",
+      "fertilizer_urea_final": 85,
+      "fertilizer_dap_final": 118,
+      "seeds_hybrid_final": 88,
+      "seeds_local_final": 79
+    },
+    {
+      "region_id": "region_028",
+      "fertilizer_urea_final": 107,
+      "fertilizer_dap_final": 129,
+      "seeds_hybrid_final": 43,
+      "seeds_local_final": 15
+    },
+    {
+      "region_id": "region_029",
+      "fertilizer_urea_final": 112,
+      "fertilizer_dap_final": 99,
+      "seeds_hybrid_final": 19,
+      "seeds_local_final": 60
+    },
+    {
+      "region_id": "region_030",
+      "fertilizer_urea_final": 56,
+      "fertilizer_dap_final": 24,
+      "seeds_hybrid_final": 14,
+      "seeds_local_final": 22
+    },
+    {
+      "region_id": "region_031",
+      "fertilizer_urea_final": 107,
+      "fertilizer_dap_final": 98,
+      "seeds_hybrid_final": 26,
+      "seeds_local_final": 55
+    },
+    {
+      "region_id": "region_032",
+      "fertilizer_urea_final": 89,
+      "fertilizer_dap_final": 80,
+      "seeds_hybrid_final": 89,
+      "seeds_local_final": 42
+    },
+    {
+      "region_id": "region_033",
+      "fertilizer_urea_final": 87,
+      "fertilizer_dap_final": 44,
+      "seeds_hybrid_final": 47,
+      "seeds_local_final": 77
+    },
+    {
+      "region_id": "region_034",
+      "fertilizer_urea_final": 25,
+      "fertilizer_dap_final": 70,
+      "seeds_hybrid_final": 77,
+      "seeds_local_final": 57
+    },
+    {
+      "region_id": "region_035",
+      "fertilizer_urea_final": 79,
+      "fertilizer_dap_final": 70,
+      "seeds_hybrid_final": 36,
+      "seeds_local_final": 81
+    },
+    {
+      "region_id": "region_036",
+      "fertilizer_urea_final": 38,
+      "fertilizer_dap_final": 144,
+      "seeds_hybrid_final": 89,
+      "seeds_local_final": 94
+    },
+    {
+      "region_id": "region_037",
+      "fertilizer_urea_final": 142,
+      "fertilizer_dap_final": 68,
+      "seeds_hybrid_final": 92,
+      "seeds_local_final": 95
+    },
+    {
+      "region_id": "region_038",
+      "fertilizer_urea_final": 81,
+      "fertilizer_dap_final": 103,
+      "seeds_hybrid_final": 33,
+      "seeds_local_final": 93
+    },
+    {
+      "region_id": "region_039",
+      "fertilizer_urea_final": 20,
+      "fertilizer_dap_final": 113,
+      "seeds_hybrid_final": 11,
+      "seeds_local_final": 76
+    },
+    {
+      "region_id": "region_040",
+      "fertilizer_urea_final": 150,
+      "fertilizer_dap_final": 21,
+      "seeds_hybrid_final": 16,
+      "seeds_local_final": 74
+    },
+    {
+      "region_id": "region_041",
+      "fertilizer_urea_final": 86,
+      "fertilizer_dap_final": 123,
+      "seeds_hybrid_final": 67,
+      "seeds_local_final": 100
+    },
+    {
+      "region_id": "region_042",
+      "fertilizer_urea_final": 148,
+      "fertilizer_dap_final": 100,
+      "seeds_hybrid_final": 78,
+      "seeds_local_final": 62
+    },
+    {
+      "region_id": "region_043",
+      "fertilizer_urea_final": 64,
+      "fertilizer_dap_final": 26,
+      "seeds_hybrid_final": 14,
+      "seeds_local_final": 77
+    },
+    {
+      "region_id": "region_044",
+      "fertilizer_urea_final": 140,
+      "fertilizer_dap_final": 79,
+      "seeds_hybrid_final": 53,
+      "seeds_local_final": 78
+    },
+    {
+      "region_id": "region_045",
+      "fertilizer_urea_final": 135,
+      "fertilizer_dap_final": 48,
+      "seeds_hybrid_final": 43,
+      "seeds_local_final": 66
+    },
+    {
+      "region_id": "region_046",
+      "fertilizer_urea_final": 74,
+      "fertilizer_dap_final": 83,
+      "seeds_hybrid_final": 27,
+      "seeds_local_final": 85
+    },
+    {
+      "region_id": "region_047",
+      "fertilizer_urea_final": 30,
+      "fertilizer_dap_final": 45,
+      "seeds_hybrid_final": 63,
+      "seeds_local_final": 46
+    },
+    {
+      "region_id": "region_048",
+      "fertilizer_urea_final": 50,
+      "fertilizer_dap_final": 58,
+      "seeds_hybrid_final": 92,
+      "seeds_local_final": 102
+    },
+    {
+      "region_id": "region_049",
+      "fertilizer_urea_final": 78,
+      "fertilizer_dap_final": 114,
+      "seeds_hybrid_final": 93,
+      "seeds_local_final": 10
+    },
+    {
+      "region_id": "region_050",
+      "fertilizer_urea_final": 43,
+      "fertilizer_dap_final": 40,
+      "seeds_hybrid_final": 90,
+      "seeds_local_final": 61
+    }
+  ],
+  "shipment_schedule": [
+    {
+      "from_region": "region_001",
+      "to_region": "region_010",
+      "item": "Fertilizer Urea",
+      "quantity_tons": 50,
+      "estimated_cost": 50000
+    },
+    {
+      "from_region": "region_002",
+      "to_region": "region_022",
+      "item": "Seeds Hybrid",
+      "quantity_tons": 200,
+      "estimated_cost": 200000
+    },
+    {
+      "from_region": "region_003",
+      "to_region": "region_048",
+      "item": "Seeds Local",
+      "quantity_tons": 15,
+      "estimated_cost": 15000
+    }
+  ],
+  "critical_constraints_identified": [
+    {
+      "type": "Logistics",
+      "location": "Region 035",
+      "description": "Landslide detected; Urea shipments diverted."
+    },
+    {
+      "type": "Infrastructure",
+      "location": "Region 012",
+      "description": "Roof collapse; storage capped at 100t."
+    }
+  ]
+}

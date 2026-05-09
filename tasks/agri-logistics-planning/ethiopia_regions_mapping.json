@@ -1,0 +1,536 @@
+﻿{
+    "L1":  [
+               {
+                   "Name":  "Addis Abeba",
+                   "L1_GID":  "L1ETH0917"
+               },
+               {
+                   "Name":  "Afar",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "Name":  "Amhara",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "Name":  "Benshangul-Gumaz",
+                   "L1_GID":  "L1ETH0920"
+               },
+               {
+                   "Name":  "Dire Dawa",
+                   "L1_GID":  "L1ETH0921"
+               },
+               {
+                   "Name":  "Gambela Peoples",
+                   "L1_GID":  "L1ETH0922"
+               },
+               {
+                   "Name":  "Harari People",
+                   "L1_GID":  "L1ETH0923"
+               },
+               {
+                   "Name":  "Oromia",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "Name":  "Somali",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "Name":  "Southern Nations, Nationalities",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "Name":  "Tigray",
+                   "L1_GID":  "L1ETH0927"
+               }
+           ],
+    "L2":  [
+               {
+                   "L1_Name":  "Addis Abeba",
+                   "Zone_Name":  "Addis Abeba",
+                   "L2_GID":  "L2ETH14581",
+                   "L1_GID":  "L1ETH0917"
+               },
+               {
+                   "L1_Name":  "Afar",
+                   "Zone_Name":  "Afar Zone 1",
+                   "L2_GID":  "L2ETH14582",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "L1_Name":  "Afar",
+                   "Zone_Name":  "Afar Zone 2",
+                   "L2_GID":  "L2ETH14583",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "L1_Name":  "Afar",
+                   "Zone_Name":  "Afar Zone 3",
+                   "L2_GID":  "L2ETH14584",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "L1_Name":  "Afar",
+                   "Zone_Name":  "Afar Zone 4",
+                   "L2_GID":  "L2ETH14585",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "L1_Name":  "Afar",
+                   "Zone_Name":  "Afar Zone 5",
+                   "L2_GID":  "L2ETH14586",
+                   "L1_GID":  "L1ETH0918"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Agew Awi",
+                   "L2_GID":  "L2ETH14587",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Argoba",
+                   "L2_GID":  "L2ETH14588",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Bahir Dar Special Zone",
+                   "L2_GID":  "L2ETH14589",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Debub Gondar",
+                   "L2_GID":  "L2ETH14590",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Debub Wollo",
+                   "L2_GID":  "L2ETH14591",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Mirab Gojjam",
+                   "L2_GID":  "L2ETH14592",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Misraq Gojjam",
+                   "L2_GID":  "L2ETH14593",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "North Shewa",
+                   "L2_GID":  "L2ETH14594",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Oromia",
+                   "L2_GID":  "L2ETH14595",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Semen Gondar",
+                   "L2_GID":  "L2ETH14596",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Semen Gondar",
+                   "L2_GID":  "L2ETH14596",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Semen Gondar",
+                   "L2_GID":  "L2ETH14596",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Semen Wello",
+                   "L2_GID":  "L2ETH14597",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Amhara",
+                   "Zone_Name":  "Wag Himra",
+                   "L2_GID":  "L2ETH14598",
+                   "L1_GID":  "L1ETH0919"
+               },
+               {
+                   "L1_Name":  "Benshangul-Gumaz",
+                   "Zone_Name":  "Asosa",
+                   "L2_GID":  "L2ETH14599",
+                   "L1_GID":  "L1ETH0920"
+               },
+               {
+                   "L1_Name":  "Benshangul-Gumaz",
+                   "Zone_Name":  "Kemashi",
+                   "L2_GID":  "L2ETH14600",
+                   "L1_GID":  "L1ETH0920"
+               },
+               {
+                   "L1_Name":  "Benshangul-Gumaz",
+                   "Zone_Name":  "Metekel",
+                   "L2_GID":  "L2ETH14601",
+                   "L1_GID":  "L1ETH0920"
+               },
+               {
+                   "L1_Name":  "Dire Dawa",
+                   "Zone_Name":  "Dire Dawa",
+                   "L2_GID":  "L2ETH14602",
+                   "L1_GID":  "L1ETH0921"
+               },
+               {
+                   "L1_Name":  "Gambela Peoples",
+                   "Zone_Name":  "Agnuak",
+                   "L2_GID":  "L2ETH14603",
+                   "L1_GID":  "L1ETH0922"
+               },
+               {
+                   "L1_Name":  "Gambela Peoples",
+                   "Zone_Name":  "Majang",
+                   "L2_GID":  "L2ETH14604",
+                   "L1_GID":  "L1ETH0922"
+               },
+               {
+                   "L1_Name":  "Gambela Peoples",
+                   "Zone_Name":  "Nuer",
+                   "L2_GID":  "L2ETH14605",
+                   "L1_GID":  "L1ETH0922"
+               },
+               {
+                   "L1_Name":  "Harari People",
+                   "Zone_Name":  "Hareri",
+                   "L2_GID":  "L2ETH14606",
+                   "L1_GID":  "L1ETH0923"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Arsi",
+                   "L2_GID":  "L2ETH14607",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Bale",
+                   "L2_GID":  "L2ETH14608",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Borena",
+                   "L2_GID":  "L2ETH14609",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Debub Mirab Shewa",
+                   "L2_GID":  "L2ETH14610",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Guji",
+                   "L2_GID":  "L2ETH14611",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Horo Guduru",
+                   "L2_GID":  "L2ETH14612",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Ilubabor",
+                   "L2_GID":  "L2ETH14613",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Jimma",
+                   "L2_GID":  "L2ETH14614",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Kelem Wellega",
+                   "L2_GID":  "L2ETH14615",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Mirab Arsi",
+                   "L2_GID":  "L2ETH14616",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Mirab Hararghe",
+                   "L2_GID":  "L2ETH14617",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Mirab Shewa",
+                   "L2_GID":  "L2ETH14618",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Mirab Welega",
+                   "L2_GID":  "L2ETH14619",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Misraq Harerge",
+                   "L2_GID":  "L2ETH14620",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Misraq Shewa",
+                   "L2_GID":  "L2ETH14621",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "Misraq Wellega",
+                   "L2_GID":  "L2ETH14622",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Oromia",
+                   "Zone_Name":  "North Shewa",
+                   "L2_GID":  "L2ETH14623",
+                   "L1_GID":  "L1ETH0924"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Afder",
+                   "L2_GID":  "L2ETH14624",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Doolo",
+                   "L2_GID":  "L2ETH14625",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Fafan",
+                   "L2_GID":  "L2ETH14626",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Jarar",
+                   "L2_GID":  "L2ETH14627",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Korahe",
+                   "L2_GID":  "L2ETH14628",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Liben",
+                   "L2_GID":  "L2ETH14629",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Nogob",
+                   "L2_GID":  "L2ETH14630",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Shabelle",
+                   "L2_GID":  "L2ETH14631",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Somali",
+                   "Zone_Name":  "Siti",
+                   "L2_GID":  "L2ETH14632",
+                   "L1_GID":  "L1ETH0925"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Alaba",
+                   "L2_GID":  "L2ETH14633",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Alle",
+                   "L2_GID":  "L2ETH14634",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Amaro",
+                   "L2_GID":  "L2ETH14635",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Basketo",
+                   "L2_GID":  "L2ETH14636",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Bench Maji",
+                   "L2_GID":  "L2ETH14637",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Burji",
+                   "L2_GID":  "L2ETH14638",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Dawro",
+                   "L2_GID":  "L2ETH14639",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Debub Omo",
+                   "L2_GID":  "L2ETH14640",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Derashe",
+                   "L2_GID":  "L2ETH14641",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Gamo Gofa",
+                   "L2_GID":  "L2ETH14642",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Gedeo",
+                   "L2_GID":  "L2ETH14643",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Gurage",
+                   "L2_GID":  "L2ETH14644",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Hadiya",
+                   "L2_GID":  "L2ETH14645",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Keffa",
+                   "L2_GID":  "L2ETH14646",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Kembata Tembaro",
+                   "L2_GID":  "L2ETH14647",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Konso",
+                   "L2_GID":  "L2ETH14648",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Konta",
+                   "L2_GID":  "L2ETH14649",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Sheka",
+                   "L2_GID":  "L2ETH14650",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Sidama",
+                   "L2_GID":  "L2ETH14651",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Silti",
+                   "L2_GID":  "L2ETH14652",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Wolayita",
+                   "L2_GID":  "L2ETH14653",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Southern Nations, Nationalities",
+                   "Zone_Name":  "Yem",
+                   "L2_GID":  "L2ETH14654",
+                   "L1_GID":  "L1ETH0926"
+               },
+               {
+                   "L1_Name":  "Tigray",
+                   "Zone_Name":  "Debubawi",
+                   "L2_GID":  "L2ETH14655",
+                   "L1_GID":  "L1ETH0927"
+               },
+               {
+                   "L1_Name":  "Tigray",
+                   "Zone_Name":  "Mehakelegnaw",
+                   "L2_GID":  "L2ETH14656",
+                   "L1_GID":  "L1ETH0927"
+               },
+               {
+                   "L1_Name":  "Tigray",
+                   "Zone_Name":  "Miirabawi",
+                   "L2_GID":  "L2ETH14657",
+                   "L1_GID":  "L1ETH0927"
+               },
+               {
+                   "L1_Name":  "Tigray",
+                   "Zone_Name":  "Misraqawi",
+                   "L2_GID":  "L2ETH14658",
+                   "L1_GID":  "L1ETH0927"
+               },
+               {
+                   "L1_Name":  "Tigray",
+                   "Zone_Name":  "Semien Miirabaw",
+                   "L2_GID":  "L2ETH14659",
+                   "L1_GID":  "L1ETH0927"
+               }
+           ]
+}

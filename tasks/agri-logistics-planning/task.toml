@@ -1,0 +1,18 @@
+[task]
+name = "swarmbench/41ef28d49212445c9c55ba0647bb5dd0-SWARMBENCH-MAPREDUCE-AGRI-LOGISTICS-PLANNING"
+description = "Optimize agricultural resource redistribution across 50 regions in Ethiopia to maximize food security while respecting budget and logistics constraints."
+category = "planning-operations"
+estimated_sub_agents = 20
+aht_estimate_minutes = 60
+why_multi_agent = "The 1.1M token input volume exceeds the context window of single-agent models, causing a context-overload failure. Decomposing the task into 19 parallel specialists and a synthesis reducer allows for the extraction of buried operational constraints without signal loss."
+human_solving_hours_estimate = 100
+human_solving_hours_justification = "A human expert must analyze 50 regional briefs (1.1M tokens total). At ~60 mins per high-density brief (50h), plus 30h for global cross-region synthesis and 20h for operational verification against 15+ buried constraints, 100 hours is required for professional execution."
+input_token_estimate = 1100000
+
+[metadata]
+source = "GROW-Africa (Geyman et al. 2025)"
+reference_link = "https://zenodo.org/records/14961637"
+complex_coordination = true
+buried_constraints = true
+real_world_data = true
+aht_justification = "19 specialists analyze region batches (200K+ tokens each) in parallel (approx 120 mins human time, 10 mins agent time). 1 reducer synthesizes results and optimizes the distribution plan (approx 60 mins)."

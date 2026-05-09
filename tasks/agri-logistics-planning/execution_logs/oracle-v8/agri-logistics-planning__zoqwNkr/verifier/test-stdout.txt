@@ -1,0 +1,1 @@
+{"reward": 0.0, "reason": "Fraudulent Impact Score: Reported 0.35, Calculated 0.06."}

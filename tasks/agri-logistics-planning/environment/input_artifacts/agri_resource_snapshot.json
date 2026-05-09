@@ -1,0 +1,854 @@
+{
+  "regions": [
+    {
+      "region_id": "region_001",
+      "region_name": "Oromia",
+      "zone_name": "Arsi",
+      "initial_inventory": {
+        "fertilizer_urea": 151,
+        "fertilizer_dap": 148,
+        "seeds_hybrid": 71,
+        "seeds_local": 10
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 589,
+        "projected_need_tons": 1883,
+        "yield_gap_tons": 612
+      }
+    },
+    {
+      "region_id": "region_002",
+      "region_name": "Oromia",
+      "zone_name": "Bale",
+      "initial_inventory": {
+        "fertilizer_urea": 169,
+        "fertilizer_dap": 191,
+        "seeds_hybrid": 74,
+        "seeds_local": 58
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 508,
+        "projected_need_tons": 2381,
+        "yield_gap_tons": 762
+      }
+    },
+    {
+      "region_id": "region_003",
+      "region_name": "Oromia",
+      "zone_name": "Borena",
+      "initial_inventory": {
+        "fertilizer_urea": 65,
+        "fertilizer_dap": 84,
+        "seeds_hybrid": 51,
+        "seeds_local": 39
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1335,
+        "projected_need_tons": 2056,
+        "yield_gap_tons": 922
+      }
+    },
+    {
+      "region_id": "region_004",
+      "region_name": "Oromia",
+      "zone_name": "East Hararghe",
+      "initial_inventory": {
+        "fertilizer_urea": 188,
+        "fertilizer_dap": 156,
+        "seeds_hybrid": 62,
+        "seeds_local": 83
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 950,
+        "projected_need_tons": 2242,
+        "yield_gap_tons": 699
+      }
+    },
+    {
+      "region_id": "region_005",
+      "region_name": "Oromia",
+      "zone_name": "West Hararghe",
+      "initial_inventory": {
+        "fertilizer_urea": 140,
+        "fertilizer_dap": 148,
+        "seeds_hybrid": 38,
+        "seeds_local": 10
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1038,
+        "projected_need_tons": 2212,
+        "yield_gap_tons": 635
+      }
+    },
+    {
+      "region_id": "region_006",
+      "region_name": "Oromia",
+      "zone_name": "East Shewa",
+      "initial_inventory": {
+        "fertilizer_urea": 143,
+        "fertilizer_dap": 90,
+        "seeds_hybrid": 34,
+        "seeds_local": 31
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1405,
+        "projected_need_tons": 2007,
+        "yield_gap_tons": 602
+      }
+    },
+    {
+      "region_id": "region_007",
+      "region_name": "Oromia",
+      "zone_name": "West Shewa",
+      "initial_inventory": {
+        "fertilizer_urea": 80,
+        "fertilizer_dap": 136,
+        "seeds_hybrid": 26,
+        "seeds_local": 59
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1215,
+        "projected_need_tons": 1929,
+        "yield_gap_tons": 832
+      }
+    },
+    {
+      "region_id": "region_008",
+      "region_name": "Oromia",
+      "zone_name": "North Shewa",
+      "initial_inventory": {
+        "fertilizer_urea": 184,
+        "fertilizer_dap": 153,
+        "seeds_hybrid": 40,
+        "seeds_local": 93
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1038,
+        "projected_need_tons": 1925,
+        "yield_gap_tons": 945
+      }
+    },
+    {
+      "region_id": "region_009",
+      "region_name": "Oromia",
+      "zone_name": "Jimma",
+      "initial_inventory": {
+        "fertilizer_urea": 119,
+        "fertilizer_dap": 81,
+        "seeds_hybrid": 35,
+        "seeds_local": 14
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1247,
+        "projected_need_tons": 1767,
+        "yield_gap_tons": 646
+      }
+    },
+    {
+      "region_id": "region_010",
+      "region_name": "Oromia",
+      "zone_name": "West Wollega",
+      "initial_inventory": {
+        "fertilizer_urea": 75,
+        "fertilizer_dap": 194,
+        "seeds_hybrid": 51,
+        "seeds_local": 63
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1068,
+        "projected_need_tons": 1719,
+        "yield_gap_tons": 819
+      }
+    },
+    {
+      "region_id": "region_011",
+      "region_name": "Amhara",
+      "zone_name": "East Gojjam",
+      "initial_inventory": {
+        "fertilizer_urea": 200,
+        "fertilizer_dap": 108,
+        "seeds_hybrid": 83,
+        "seeds_local": 78
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 937,
+        "projected_need_tons": 2479,
+        "yield_gap_tons": 537
+      }
+    },
+    {
+      "region_id": "region_012",
+      "region_name": "Amhara",
+      "zone_name": "West Gojjam",
+      "initial_inventory": {
+        "fertilizer_urea": 62,
+        "fertilizer_dap": 164,
+        "seeds_hybrid": 89,
+        "seeds_local": 22
+      },
+      "capacity_tons": 120,
+      "yield_stats": {
+        "current_yield_tons": 1299,
+        "projected_need_tons": 1913,
+        "yield_gap_tons": 802
+      }
+    },
+    {
+      "region_id": "region_013",
+      "region_name": "Amhara",
+      "zone_name": "North Gondar",
+      "initial_inventory": {
+        "fertilizer_urea": 57,
+        "fertilizer_dap": 110,
+        "seeds_hybrid": 69,
+        "seeds_local": 51
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 616,
+        "projected_need_tons": 2127,
+        "yield_gap_tons": 688
+      }
+    },
+    {
+      "region_id": "region_014",
+      "region_name": "Amhara",
+      "zone_name": "South Gondar",
+      "initial_inventory": {
+        "fertilizer_urea": 111,
+        "fertilizer_dap": 147,
+        "seeds_hybrid": 89,
+        "seeds_local": 16
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 677,
+        "projected_need_tons": 1511,
+        "yield_gap_tons": 825
+      }
+    },
+    {
+      "region_id": "region_015",
+      "region_name": "Amhara",
+      "zone_name": "North Wollo",
+      "initial_inventory": {
+        "fertilizer_urea": 108,
+        "fertilizer_dap": 68,
+        "seeds_hybrid": 17,
+        "seeds_local": 24
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 574,
+        "projected_need_tons": 2397,
+        "yield_gap_tons": 915
+      }
+    },
+    {
+      "region_id": "region_016",
+      "region_name": "Amhara",
+      "zone_name": "South Wollo",
+      "initial_inventory": {
+        "fertilizer_urea": 178,
+        "fertilizer_dap": 78,
+        "seeds_hybrid": 42,
+        "seeds_local": 84
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1312,
+        "projected_need_tons": 1934,
+        "yield_gap_tons": 873
+      }
+    },
+    {
+      "region_id": "region_017",
+      "region_name": "Amhara",
+      "zone_name": "North Shewa",
+      "initial_inventory": {
+        "fertilizer_urea": 143,
+        "fertilizer_dap": 114,
+        "seeds_hybrid": 46,
+        "seeds_local": 18
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 812,
+        "projected_need_tons": 2167,
+        "yield_gap_tons": 883
+      }
+    },
+    {
+      "region_id": "region_018",
+      "region_name": "Amhara",
+      "zone_name": "Awi",
+      "initial_inventory": {
+        "fertilizer_urea": 72,
+        "fertilizer_dap": 87,
+        "seeds_hybrid": 97,
+        "seeds_local": 27
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 780,
+        "projected_need_tons": 2408,
+        "yield_gap_tons": 958
+      }
+    },
+    {
+      "region_id": "region_019",
+      "region_name": "Amhara",
+      "zone_name": "Wag Hemra",
+      "initial_inventory": {
+        "fertilizer_urea": 180,
+        "fertilizer_dap": 125,
+        "seeds_hybrid": 38,
+        "seeds_local": 31
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1371,
+        "projected_need_tons": 2399,
+        "yield_gap_tons": 935
+      }
+    },
+    {
+      "region_id": "region_020",
+      "region_name": "Sidama",
+      "zone_name": "Sidama",
+      "initial_inventory": {
+        "fertilizer_urea": 149,
+        "fertilizer_dap": 139,
+        "seeds_hybrid": 35,
+        "seeds_local": 26
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1323,
+        "projected_need_tons": 1999,
+        "yield_gap_tons": 767
+      }
+    },
+    {
+      "region_id": "region_021",
+      "region_name": "Tigray",
+      "zone_name": "Southern",
+      "initial_inventory": {
+        "fertilizer_urea": 79,
+        "fertilizer_dap": 109,
+        "seeds_hybrid": 10,
+        "seeds_local": 59
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 859,
+        "projected_need_tons": 2184,
+        "yield_gap_tons": 751
+      }
+    },
+    {
+      "region_id": "region_022",
+      "region_name": "Tigray",
+      "zone_name": "Eastern",
+      "initial_inventory": {
+        "fertilizer_urea": 110,
+        "fertilizer_dap": 50,
+        "seeds_hybrid": 91,
+        "seeds_local": 41
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 586,
+        "projected_need_tons": 1725,
+        "yield_gap_tons": 675
+      }
+    },
+    {
+      "region_id": "region_023",
+      "region_name": "Tigray",
+      "zone_name": "Central",
+      "initial_inventory": {
+        "fertilizer_urea": 186,
+        "fertilizer_dap": 173,
+        "seeds_hybrid": 68,
+        "seeds_local": 37
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1491,
+        "projected_need_tons": 2362,
+        "yield_gap_tons": 821
+      }
+    },
+    {
+      "region_id": "region_024",
+      "region_name": "Tigray",
+      "zone_name": "Northwestern",
+      "initial_inventory": {
+        "fertilizer_urea": 134,
+        "fertilizer_dap": 125,
+        "seeds_hybrid": 37,
+        "seeds_local": 73
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 798,
+        "projected_need_tons": 1887,
+        "yield_gap_tons": 502
+      }
+    },
+    {
+      "region_id": "region_025",
+      "region_name": "Tigray",
+      "zone_name": "Western",
+      "initial_inventory": {
+        "fertilizer_urea": 95,
+        "fertilizer_dap": 174,
+        "seeds_hybrid": 60,
+        "seeds_local": 28
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 705,
+        "projected_need_tons": 2498,
+        "yield_gap_tons": 560
+      }
+    },
+    {
+      "region_id": "region_026",
+      "region_name": "Afar",
+      "zone_name": "Zone 1",
+      "initial_inventory": {
+        "fertilizer_urea": 130,
+        "fertilizer_dap": 81,
+        "seeds_hybrid": 98,
+        "seeds_local": 84
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 841,
+        "projected_need_tons": 1641,
+        "yield_gap_tons": 581
+      }
+    },
+    {
+      "region_id": "region_027",
+      "region_name": "Afar",
+      "zone_name": "Zone 3",
+      "initial_inventory": {
+        "fertilizer_urea": 52,
+        "fertilizer_dap": 139,
+        "seeds_hybrid": 80,
+        "seeds_local": 54
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 883,
+        "projected_need_tons": 1841,
+        "yield_gap_tons": 878
+      }
+    },
+    {
+      "region_id": "region_028",
+      "region_name": "Somali",
+      "zone_name": "Faafan",
+      "initial_inventory": {
+        "fertilizer_urea": 112,
+        "fertilizer_dap": 147,
+        "seeds_hybrid": 94,
+        "seeds_local": 59
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 589,
+        "projected_need_tons": 2349,
+        "yield_gap_tons": 1000
+      }
+    },
+    {
+      "region_id": "region_029",
+      "region_name": "Somali",
+      "zone_name": "Sitti",
+      "initial_inventory": {
+        "fertilizer_urea": 121,
+        "fertilizer_dap": 105,
+        "seeds_hybrid": 44,
+        "seeds_local": 42
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1099,
+        "projected_need_tons": 2438,
+        "yield_gap_tons": 847
+      }
+    },
+    {
+      "region_id": "region_030",
+      "region_name": "Somali",
+      "zone_name": "Liban",
+      "initial_inventory": {
+        "fertilizer_urea": 180,
+        "fertilizer_dap": 135,
+        "seeds_hybrid": 84,
+        "seeds_local": 40
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 991,
+        "projected_need_tons": 1706,
+        "yield_gap_tons": 619
+      }
+    },
+    {
+      "region_id": "region_031",
+      "region_name": "Somali",
+      "zone_name": "Afder",
+      "initial_inventory": {
+        "fertilizer_urea": 126,
+        "fertilizer_dap": 99,
+        "seeds_hybrid": 41,
+        "seeds_local": 16
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1397,
+        "projected_need_tons": 2484,
+        "yield_gap_tons": 882
+      }
+    },
+    {
+      "region_id": "region_032",
+      "region_name": "Benishangul-Gumuz",
+      "zone_name": "Metekel",
+      "initial_inventory": {
+        "fertilizer_urea": 161,
+        "fertilizer_dap": 59,
+        "seeds_hybrid": 42,
+        "seeds_local": 52
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 904,
+        "projected_need_tons": 2142,
+        "yield_gap_tons": 513
+      }
+    },
+    {
+      "region_id": "region_033",
+      "region_name": "Benishangul-Gumuz",
+      "zone_name": "Asosa",
+      "initial_inventory": {
+        "fertilizer_urea": 108,
+        "fertilizer_dap": 116,
+        "seeds_hybrid": 91,
+        "seeds_local": 14
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 722,
+        "projected_need_tons": 2298,
+        "yield_gap_tons": 948
+      }
+    },
+    {
+      "region_id": "region_034",
+      "region_name": "Gambela",
+      "zone_name": "Anywak",
+      "initial_inventory": {
+        "fertilizer_urea": 69,
+        "fertilizer_dap": 71,
+        "seeds_hybrid": 71,
+        "seeds_local": 61
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 852,
+        "projected_need_tons": 1539,
+        "yield_gap_tons": 836
+      }
+    },
+    {
+      "region_id": "region_035",
+      "region_name": "Gambela",
+      "zone_name": "Nuwer",
+      "initial_inventory": {
+        "fertilizer_urea": 93,
+        "fertilizer_dap": 106,
+        "seeds_hybrid": 28,
+        "seeds_local": 49
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 996,
+        "projected_need_tons": 1993,
+        "yield_gap_tons": 753
+      }
+    },
+    {
+      "region_id": "region_036",
+      "region_name": "Central Ethiopia",
+      "zone_name": "Hadiya",
+      "initial_inventory": {
+        "fertilizer_urea": 139,
+        "fertilizer_dap": 99,
+        "seeds_hybrid": 51,
+        "seeds_local": 18
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1285,
+        "projected_need_tons": 1529,
+        "yield_gap_tons": 994
+      }
+    },
+    {
+      "region_id": "region_037",
+      "region_name": "Central Ethiopia",
+      "zone_name": "Gurage",
+      "initial_inventory": {
+        "fertilizer_urea": 140,
+        "fertilizer_dap": 152,
+        "seeds_hybrid": 41,
+        "seeds_local": 27
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1294,
+        "projected_need_tons": 2289,
+        "yield_gap_tons": 875
+      }
+    },
+    {
+      "region_id": "region_038",
+      "region_name": "Central Ethiopia",
+      "zone_name": "Silte",
+      "initial_inventory": {
+        "fertilizer_urea": 87,
+        "fertilizer_dap": 80,
+        "seeds_hybrid": 87,
+        "seeds_local": 70
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 715,
+        "projected_need_tons": 2129,
+        "yield_gap_tons": 864
+      }
+    },
+    {
+      "region_id": "region_039",
+      "region_name": "South Ethiopia",
+      "zone_name": "Wolayta",
+      "initial_inventory": {
+        "fertilizer_urea": 184,
+        "fertilizer_dap": 115,
+        "seeds_hybrid": 63,
+        "seeds_local": 62
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1044,
+        "projected_need_tons": 1956,
+        "yield_gap_tons": 672
+      }
+    },
+    {
+      "region_id": "region_040",
+      "region_name": "South Ethiopia",
+      "zone_name": "Gamo",
+      "initial_inventory": {
+        "fertilizer_urea": 92,
+        "fertilizer_dap": 153,
+        "seeds_hybrid": 22,
+        "seeds_local": 19
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1480,
+        "projected_need_tons": 2478,
+        "yield_gap_tons": 577
+      }
+    },
+    {
+      "region_id": "region_041",
+      "region_name": "South Ethiopia",
+      "zone_name": "Gofa",
+      "initial_inventory": {
+        "fertilizer_urea": 112,
+        "fertilizer_dap": 191,
+        "seeds_hybrid": 20,
+        "seeds_local": 76
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1007,
+        "projected_need_tons": 2023,
+        "yield_gap_tons": 545
+      }
+    },
+    {
+      "region_id": "region_042",
+      "region_name": "South West Ethiopia",
+      "zone_name": "Keffa",
+      "initial_inventory": {
+        "fertilizer_urea": 125,
+        "fertilizer_dap": 100,
+        "seeds_hybrid": 41,
+        "seeds_local": 31
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1278,
+        "projected_need_tons": 2389,
+        "yield_gap_tons": 615
+      }
+    },
+    {
+      "region_id": "region_043",
+      "region_name": "South West Ethiopia",
+      "zone_name": "Bench Sheko",
+      "initial_inventory": {
+        "fertilizer_urea": 70,
+        "fertilizer_dap": 155,
+        "seeds_hybrid": 87,
+        "seeds_local": 45
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 744,
+        "projected_need_tons": 2191,
+        "yield_gap_tons": 992
+      }
+    },
+    {
+      "region_id": "region_044",
+      "region_name": "South West Ethiopia",
+      "zone_name": "Dawuro",
+      "initial_inventory": {
+        "fertilizer_urea": 131,
+        "fertilizer_dap": 64,
+        "seeds_hybrid": 71,
+        "seeds_local": 91
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1471,
+        "projected_need_tons": 2471,
+        "yield_gap_tons": 816
+      }
+    },
+    {
+      "region_id": "region_045",
+      "region_name": "South West Ethiopia",
+      "zone_name": "Konta",
+      "initial_inventory": {
+        "fertilizer_urea": 68,
+        "fertilizer_dap": 123,
+        "seeds_hybrid": 65,
+        "seeds_local": 96
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1226,
+        "projected_need_tons": 1991,
+        "yield_gap_tons": 872
+      }
+    },
+    {
+      "region_id": "region_046",
+      "region_name": "Oromia",
+      "zone_name": "West Guji",
+      "initial_inventory": {
+        "fertilizer_urea": 62,
+        "fertilizer_dap": 98,
+        "seeds_hybrid": 19,
+        "seeds_local": 36
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 922,
+        "projected_need_tons": 1986,
+        "yield_gap_tons": 598
+      }
+    },
+    {
+      "region_id": "region_047",
+      "region_name": "Oromia",
+      "zone_name": "East Wollega",
+      "initial_inventory": {
+        "fertilizer_urea": 80,
+        "fertilizer_dap": 85,
+        "seeds_hybrid": 98,
+        "seeds_local": 12
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1423,
+        "projected_need_tons": 2174,
+        "yield_gap_tons": 745
+      }
+    },
+    {
+      "region_id": "region_048",
+      "region_name": "Oromia",
+      "zone_name": "Kelam Wollega",
+      "initial_inventory": {
+        "fertilizer_urea": 173,
+        "fertilizer_dap": 155,
+        "seeds_hybrid": 14,
+        "seeds_local": 92
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 824,
+        "projected_need_tons": 2001,
+        "yield_gap_tons": 964
+      }
+    },
+    {
+      "region_id": "region_049",
+      "region_name": "Oromia",
+      "zone_name": "Illu Aba Bora",
+      "initial_inventory": {
+        "fertilizer_urea": 81,
+        "fertilizer_dap": 115,
+        "seeds_hybrid": 65,
+        "seeds_local": 33
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 614,
+        "projected_need_tons": 1925,
+        "yield_gap_tons": 633
+      }
+    },
+    {
+      "region_id": "region_050",
+      "region_name": "Oromia",
+      "zone_name": "Bunno Bedele",
+      "initial_inventory": {
+        "fertilizer_urea": 117,
+        "fertilizer_dap": 95,
+        "seeds_hybrid": 65,
+        "seeds_local": 32
+      },
+      "capacity_tons": 500,
+      "yield_stats": {
+        "current_yield_tons": 1307,
+        "projected_need_tons": 2007,
+        "yield_gap_tons": 888
+      }
+    }
+  ]
+}

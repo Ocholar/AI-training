@@ -1,0 +1,2 @@
+Skipping image OS validation for hb__swarmbench-41ef28d4-9212-445c-9c55-ba0647bb5dd0-agri-logistics-planning: docker inspect returned 1
+Trial agri-logistics-planning__YsGs2iV failed: No reward file found at C:\Users\Administrator\harbor\agri-logistics-planning\execution_logs\oracle-validation-v3\agri-logistics-planning__YsGs2iV\verifier\reward.txt or C:\Users\Administrator\harbor\agri-logistics-planning\execution_logs\oracle-validation-v3\agri-logistics-planning__YsGs2iV\verifier\reward.json

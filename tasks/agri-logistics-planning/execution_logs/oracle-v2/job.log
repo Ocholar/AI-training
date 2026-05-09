@@ -1,0 +1,35 @@
+Trial agri-logistics-planning__gFHGFJ7 failed: Docker compose command failed for environment swarmbench/41ef28d49212445c9c55ba0647bb5dd0-agri-logistics-planning. Command: docker compose --project-name agri-logistics-planning__gfhgfj7 --project-directory C:\Users\Administrator\harbor\agri-logistics-planning\environment -f C:\Users\Administrator\harbor\src\harbor\environments\docker\docker-compose-base.yaml -f C:\Users\Administrator\harbor\src\harbor\environments\docker\docker-compose-build.yaml build. Return code: 1. Stdout:  Image agri-logistics-planning__gfhgfj7-main Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 635B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 30B 0.0s
+#2 transferring dockerfile: 634B 0.1s done
+#2 DONE 0.2s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.11-slim": net/http: TLS handshake timeout
+------
+ > [internal] load metadata for docker.io/library/python:3.11-slim:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM python:3.11-slim
+
+   2 |     
+
+   3 |     # Install system dependencies
+
+--------------------
+
+failed to solve: python:3.11-slim: failed to resolve source metadata for docker.io/library/python:3.11-slim: failed to do request: Head "https://registry-1.docker.io/v2/library/python/manifests/3.11-slim": net/http: TLS handshake timeout
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/ti3ls98tdcmg6p99f33lcgyqi
+
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached

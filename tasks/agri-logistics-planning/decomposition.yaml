@@ -1,0 +1,209 @@
+sub_tasks:
+- id: specialist_01
+  description: Analyze regional briefs for region_001.txt, region_002.txt, region_003.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Logistics Specialist.
+  role: Logistics Specialist
+  assigned_files:
+  - region_001.txt
+  - region_002.txt
+  - region_003.txt
+  parallel_group: 1
+- id: specialist_02
+  description: Analyze regional briefs for region_004.txt, region_005.txt, region_006.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Agronomy Specialist.
+  role: Agronomy Specialist
+  assigned_files:
+  - region_004.txt
+  - region_005.txt
+  - region_006.txt
+  parallel_group: 1
+- id: specialist_03
+  description: Analyze regional briefs for region_007.txt, region_008.txt, region_009.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Operations Specialist.
+  role: Operations Specialist
+  assigned_files:
+  - region_007.txt
+  - region_008.txt
+  - region_009.txt
+  parallel_group: 1
+- id: specialist_04
+  description: Analyze regional briefs for region_010.txt, region_011.txt, region_012.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Compliance Specialist.
+  role: Compliance Specialist
+  assigned_files:
+  - region_010.txt
+  - region_011.txt
+  - region_012.txt
+  parallel_group: 1
+- id: specialist_05
+  description: Analyze regional briefs for region_013.txt, region_014.txt, region_015.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Logistics Specialist.
+  role: Logistics Specialist
+  assigned_files:
+  - region_013.txt
+  - region_014.txt
+  - region_015.txt
+  parallel_group: 1
+- id: specialist_06
+  description: Analyze regional briefs for region_016.txt, region_017.txt, region_018.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Agronomy Specialist.
+  role: Agronomy Specialist
+  assigned_files:
+  - region_016.txt
+  - region_017.txt
+  - region_018.txt
+  parallel_group: 1
+- id: specialist_07
+  description: Analyze regional briefs for region_019.txt, region_020.txt, region_021.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Operations Specialist.
+  role: Operations Specialist
+  assigned_files:
+  - region_019.txt
+  - region_020.txt
+  - region_021.txt
+  parallel_group: 1
+- id: specialist_08
+  description: Analyze regional briefs for region_022.txt, region_023.txt, region_024.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Compliance Specialist.
+  role: Compliance Specialist
+  assigned_files:
+  - region_022.txt
+  - region_023.txt
+  - region_024.txt
+  parallel_group: 1
+- id: specialist_09
+  description: Analyze regional briefs for region_025.txt, region_026.txt, region_027.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Logistics Specialist.
+  role: Logistics Specialist
+  assigned_files:
+  - region_025.txt
+  - region_026.txt
+  - region_027.txt
+  parallel_group: 1
+- id: specialist_10
+  description: Analyze regional briefs for region_028.txt, region_029.txt, region_030.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Agronomy Specialist.
+  role: Agronomy Specialist
+  assigned_files:
+  - region_028.txt
+  - region_029.txt
+  - region_030.txt
+  parallel_group: 1
+- id: specialist_11
+  description: Analyze regional briefs for region_031.txt, region_032.txt, region_033.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Operations Specialist.
+  role: Operations Specialist
+  assigned_files:
+  - region_031.txt
+  - region_032.txt
+  - region_033.txt
+  parallel_group: 1
+- id: specialist_12
+  description: Analyze regional briefs for region_034.txt, region_035.txt, region_036.txt.
+    Extract local operational constraints, yield gaps, and inventory requirements
+    as a Compliance Specialist.
+  role: Compliance Specialist
+  assigned_files:
+  - region_034.txt
+  - region_035.txt
+  - region_036.txt
+  parallel_group: 1
+- id: specialist_13
+  description: Analyze regional briefs for region_037.txt, region_038.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Logistics
+    Specialist.
+  role: Logistics Specialist
+  assigned_files:
+  - region_037.txt
+  - region_038.txt
+  parallel_group: 1
+- id: specialist_14
+  description: Analyze regional briefs for region_039.txt, region_040.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Agronomy
+    Specialist.
+  role: Agronomy Specialist
+  assigned_files:
+  - region_039.txt
+  - region_040.txt
+  parallel_group: 1
+- id: specialist_15
+  description: Analyze regional briefs for region_041.txt, region_042.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Operations
+    Specialist.
+  role: Operations Specialist
+  assigned_files:
+  - region_041.txt
+  - region_042.txt
+  parallel_group: 1
+- id: specialist_16
+  description: Analyze regional briefs for region_043.txt, region_044.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Compliance
+    Specialist.
+  role: Compliance Specialist
+  assigned_files:
+  - region_043.txt
+  - region_044.txt
+  parallel_group: 1
+- id: specialist_17
+  description: Analyze regional briefs for region_045.txt, region_046.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Logistics
+    Specialist.
+  role: Logistics Specialist
+  assigned_files:
+  - region_045.txt
+  - region_046.txt
+  parallel_group: 1
+- id: specialist_18
+  description: Analyze regional briefs for region_047.txt, region_048.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Agronomy
+    Specialist.
+  role: Agronomy Specialist
+  assigned_files:
+  - region_047.txt
+  - region_048.txt
+  parallel_group: 1
+- id: specialist_19
+  description: Analyze regional briefs for region_049.txt, region_050.txt. Extract
+    local operational constraints, yield gaps, and inventory requirements as a Operations
+    Specialist.
+  role: Operations Specialist
+  assigned_files:
+  - region_049.txt
+  - region_050.txt
+  parallel_group: 1
+- id: reducer
+  description: Synthesize all specialist findings into a global redistribution plan.
+    Optimize resource movements to minimize yield gaps while adhering to the $5M budget
+    and 500t storage limits. Output the final JSON.
+  depends_on:
+  - specialist_01
+  - specialist_02
+  - specialist_03
+  - specialist_04
+  - specialist_05
+  - specialist_06
+  - specialist_07
+  - specialist_08
+  - specialist_09
+  - specialist_10
+  - specialist_11
+  - specialist_12
+  - specialist_13
+  - specialist_14
+  - specialist_15
+  - specialist_16
+  - specialist_17
+  - specialist_18
+  - specialist_19
+  parallel_group: 2

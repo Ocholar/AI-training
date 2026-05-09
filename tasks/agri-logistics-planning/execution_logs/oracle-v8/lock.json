@@ -1,0 +1,68 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-05-09T08:25:30.104765Z",
+    "harbor": {
+        "version": "0.6.4",
+        "git_commit_hash": "e70d5f060ffeb4525f320669d50b290925b55425",
+        "is_editable": true
+    },
+    "invocation": [
+        "C:\\Users\\Administrator\\harbor\\.venv\\Scripts\\harbor",
+        "run",
+        "-p",
+        "C:\\Users\\Administrator\\harbor\\agri-logistics-planning",
+        "-a",
+        "oracle",
+        "-k",
+        "1",
+        "-n",
+        "1",
+        "--job-name",
+        "oracle-v8",
+        "--jobs-dir",
+        "C:\\Users\\Administrator\\harbor\\agri-logistics-planning\\execution_logs",
+        "--quiet"
+    ],
+    "n_concurrent_trials": 1,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "RewardFileEmptyError",
+            "VerifierOutputParseError",
+            "VerifierTimeoutError",
+            "AgentTimeoutError",
+            "RewardFileNotFoundError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "agri-logistics-planning",
+                "type": "local",
+                "digest": "sha256:bb0c7bee396971f937efb5db2ccfebbfcae9c66447824a9e4ff9692908204fb0",
+                "path": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

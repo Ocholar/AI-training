@@ -1,0 +1,8 @@
+tests/
+solution/
+execution_logs/
+.git/
+*.py
+!generate_agri_briefs.py
+!generate_decomp.py
+!generate_oracle.py

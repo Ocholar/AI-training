@@ -1,0 +1,108 @@
+{
+    "id": "5b25501a-6d47-4c2e-a138-62fff3fc660b",
+    "task_name": "swarmbench/41ef28d4-9212-445c-9c55-ba0647bb5dd0-agri-logistics-planning",
+    "trial_name": "agri-logistics-planning__qpg2auF",
+    "trial_uri": "file:///C:/Users/Administrator/harbor/agri-logistics-planning/execution_logs/single-kimi-agent/agri-logistics-planning__qpg2auF",
+    "task_id": {
+        "path": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning"
+    },
+    "source": null,
+    "task_checksum": "dfeb8cce27a4eeac6be70d2b865099fe9504ea3f43e63965e5b62b6432d5755a",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "agri-logistics-planning__qpg2auF",
+        "trials_dir": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning\\execution_logs\\single-kimi-agent",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": 3.0,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": 5.0,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "swarm-kimi-single",
+            "import_path": null,
+            "model_name": "fireworks_ai/accounts/fireworks/models/kimi-k2p5",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "FIREWORKS_API_KEY": "${FIREWORKS_API_KEY}"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {
+                "FIREWORKS_API_KEY": "${FIREWORKS_API_KEY}"
+            },
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "8ee95918-1000-4609-bf0b-a85b3c443cef"
+    },
+    "agent_info": {
+        "name": "swarm-kimi-single",
+        "version": "unknown",
+        "model_info": {
+            "name": "accounts/fireworks/models/kimi-k2p5",
+            "provider": "fireworks_ai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 1877361,
+        "n_cache_tokens": 1088680,
+        "n_output_tokens": 13663,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": null,
+    "exception_info": {
+        "exception_type": "ValidationError",
+        "exception_message": "2 validation errors for VerifierResult\nrewards.reason.float\n  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value=\"Failed to find output.js...ogs/agent/output.json']\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing\nrewards.reason.int\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value=\"Failed to find output.js...ogs/agent/output.json']\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\harbor\\src\\harbor\\trial\\trial.py\", line 988, in run\n    await self._run_verification()\n  File \"C:\\Users\\Administrator\\harbor\\src\\harbor\\trial\\trial.py\", line 393, in _run_verification\n    await self._verify_with_retry()\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 189, in async_wrapped\n    return await copy(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 111, in __call__\n    do = await self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 153, in iter\n    result = await action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\_utils.py\", line 99, in inner\n    return call(*args, **kwargs)\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\__init__.py\", line 400, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n                                     ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Administrator\\AppData\\Roaming\\uv\\python\\cpython-3.13-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Administrator\\AppData\\Roaming\\uv\\python\\cpython-3.13-windows-x86_64-none\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 114, in __call__\n    result = await fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\harbor\\src\\harbor\\trial\\trial.py\", line 412, in _verify_with_retry\n    self.result.verifier_result = await asyncio.wait_for(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^\n    ...<2 lines>...\n    )\n    ^\n  File \"C:\\Users\\Administrator\\AppData\\Roaming\\uv\\python\\cpython-3.13-windows-x86_64-none\\Lib\\asyncio\\tasks.py\", line 507, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"C:\\Users\\Administrator\\harbor\\src\\harbor\\verifier\\verifier.py\", line 212, in verify\n    return VerifierResult(rewards=rewards)\n  File \"C:\\Users\\Administrator\\harbor\\.venv\\Lib\\site-packages\\pydantic\\main.py\", line 250, in __init__\n    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)\npydantic_core._pydantic_core.ValidationError: 2 validation errors for VerifierResult\nrewards.reason.float\n  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value=\"Failed to find output.js...ogs/agent/output.json']\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing\nrewards.reason.int\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value=\"Failed to find output.js...ogs/agent/output.json']\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing\n",
+        "occurred_at": "2026-05-09T09:38:21.058347"
+    },
+    "started_at": "2026-05-09T06:19:11.940957Z",
+    "finished_at": "2026-05-09T06:38:29.325387Z",
+    "environment_setup": {
+        "started_at": "2026-05-09T06:19:12.846443Z",
+        "finished_at": "2026-05-09T06:19:25.184348Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-05-09T06:19:25.184429Z",
+        "finished_at": "2026-05-09T06:27:23.132778Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-05-09T06:27:23.132983Z",
+        "finished_at": "2026-05-09T06:38:18.480013Z"
+    },
+    "verifier": {
+        "started_at": "2026-05-09T06:38:18.704954Z",
+        "finished_at": "2026-05-09T06:38:21.008846Z"
+    },
+    "step_results": null
+}

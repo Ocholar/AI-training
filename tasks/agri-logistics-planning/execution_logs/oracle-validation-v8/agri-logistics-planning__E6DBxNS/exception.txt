@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 988, in run
+    await self._run_verification()
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 393, in _run_verification
+    await self._verify_with_retry()
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\harbor\src\harbor\trial\trial.py", line 412, in _verify_with_retry
+    self.result.verifier_result = await asyncio.wait_for(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Administrator\harbor\src\harbor\verifier\verifier.py", line 212, in verify
+    return VerifierResult(rewards=rewards)
+  File "C:\Users\Administrator\harbor\.venv\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for VerifierResult
+rewards.reason.float
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='All constraints respecte...n objectives addressed.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_parsing
+rewards.reason.int
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='All constraints respecte...n objectives addressed.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing

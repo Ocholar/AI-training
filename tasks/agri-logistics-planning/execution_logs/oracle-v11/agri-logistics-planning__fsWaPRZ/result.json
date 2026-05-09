@@ -1,0 +1,100 @@
+{
+    "id": "206766cb-9eaf-4957-bcd8-f34eed2fa63c",
+    "task_name": "swarmbench/41ef28d49212445c9c55ba0647bb5dd0-agri-logistics-planning",
+    "trial_name": "agri-logistics-planning__fsWaPRZ",
+    "trial_uri": "file:///C:/Users/Administrator/harbor/agri-logistics-planning/execution_logs/oracle-v11/agri-logistics-planning__fsWaPRZ",
+    "task_id": {
+        "path": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning"
+    },
+    "source": null,
+    "task_checksum": "52d5cb83266c18db3248fa2e000ac74946b292ac7df759ae8fa5ba01805cb561",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "agri-logistics-planning__fsWaPRZ",
+        "trials_dir": "C:\\Users\\Administrator\\harbor\\agri-logistics-planning\\execution_logs\\oracle-v11",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "0961eb07-cefd-4cd8-a90f-2c4cd0d41c2a"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.512
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-05-09T09:09:16.878752Z",
+    "finished_at": "2026-05-09T09:09:50.731502Z",
+    "environment_setup": {
+        "started_at": "2026-05-09T09:09:18.152835Z",
+        "finished_at": "2026-05-09T09:09:40.468567Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-05-09T09:09:40.468642Z",
+        "finished_at": "2026-05-09T09:09:40.468735Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-05-09T09:09:40.468824Z",
+        "finished_at": "2026-05-09T09:09:42.804640Z"
+    },
+    "verifier": {
+        "started_at": "2026-05-09T09:09:42.805027Z",
+        "finished_at": "2026-05-09T09:09:46.220586Z"
+    },
+    "step_results": null
+}

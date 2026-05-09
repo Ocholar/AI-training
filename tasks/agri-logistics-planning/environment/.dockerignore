@@ -1,0 +1,9 @@
+tests/
+solution/
+execution_logs/
+generate_*.py
+cleanup.py
+*.zip
+.git/
+.ipynb_checkpoints/
+__pycache__/
